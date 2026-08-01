@@ -1,0 +1,56 @@
+[
+  {
+    "ZoneId": "aishi_gz_untartransm_1",
+    "ZoneName": "aishi_gz_untartransm_1",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-6.985868",
+      "Y": "29.71139",
+      "Z": "48.87679",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1218693",
+      "Z": "0",
+      "W": "0.9925461"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "2.5",
+      "Z": "18.75",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "aishi_gz_untarvehicles_1",
+    "ZoneName": "aishi_gz_untarvehicles_1",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "100.6829",
+      "Y": "22.66475",
+      "Z": "64.92615",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "17",
+      "Y": "5",
+      "Z": "9.75",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]

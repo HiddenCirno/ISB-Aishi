@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "Aishi_Lighthouse_Bus_Place",
+    "ZoneName": "Aishi_Lighthouse_Bus_Place",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "1.086506",
+      "Y": "7.132823",
+      "Z": "252.1802",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "2",
+      "Z": "1.5",
+      "W": "0"
+    }
+  }
+]

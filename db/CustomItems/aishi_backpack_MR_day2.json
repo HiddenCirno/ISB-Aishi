@@ -1,0 +1,109 @@
+{
+  "69fce4a63974614588b85dc7": {
+
+    "itemTplToClone": "68947ab5a733b1602007e2fe",
+    "parentId": "5448e53e4bdc2d60728b4567",
+    "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": false,   
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_backpack_bdday2_isbNONedition.bundle",
+        "rcid": ""
+      },
+
+      "Width": 5,
+      "Height": 6,
+
+
+      "Weight": 1.285,
+
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "69fce4cbdf2be0079b4d20f0",
+          "_parent": "69fce4a63974614588b85dc7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a",
+                  "5c093db286f7740a1b2617e3",
+                  "5e2af55f86f7746d4159f07c",
+                  "5c0a840b86f7742ffa4f2482",
+                  "5b7c710788a4506dec015957",
+                  "5c127c4486f7745625356c13",
+                  "5aafbcd986f7745e590fff23",
+                  "59fb016586f7746d0d4b423a",
+                  "59fb042886f7746c5005a7b2",
+                  "59fb023c86f7746d0d4b423c",
+                  "5b6d9ce188a4501afc1b2b25"
+                ]
+              }
+            ],
+            "cellsH": 5,
+            "cellsV": 6,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "69fce4bbf76641f7b38d0996"
+        }
+      ]
+    },
+
+    "locales": {
+      "en": {
+        "name": "Mystery Ranch 2 Day Assault Pack (Olive Drab)",
+        "shortName": "2 Day Assault",
+        "description": "This Mystery Ranch backpack is designed for short missions of up to two days. Its compact size is offset by excellent ergonomics. External straps provide convenient attachment points for tools and gear you might need on the go."
+      },
+        "po": {
+        "name": "Mochila Mystery Ranch 2 Day Assault (Olive Drab)",
+        "shortName": "2 Day Assault",
+        "description": "Esta mochila da Mystery Ranch foi concebida para missões curtas de até dois dias. Seu tamanho compacto é compensado por uma excelente ergonomia. As alças externas oferecem pontos de fixação práticos para ferramentas e equipamentos de que você possa precisar durante a viagem."
+      }
+    },
+
+    "fleaPriceRoubles": 218022,
+
+    "handbookPriceRoubles": 120000,
+
+    "addtoInventorySlots": ["Backpack"],
+
+    "addtoBots": true,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": false, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+    "addtoSecureFilters": false
+  }
+}

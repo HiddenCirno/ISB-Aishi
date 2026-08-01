@@ -1,0 +1,342 @@
+{
+  "696dc1681e9886c9481337a1": {
+
+    "itemTplToClone": "68948aebd8f2b85fb705e2b0",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,       
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_6b45_med_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 3,
+      "Height": 4,
+
+
+      "Weight": 4.5,
+
+
+      "Grids": [
+        {
+          "_id": "cb00a2b0ec145c665c09e3e7",
+          "_name": "GridView (1)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7ebf4e5845c92a88e9360908",
+          "_name": "GridView (2)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0b18055dcbdeb7a7326757f1",
+          "_name": "GridView (3)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4aeb59827aac336c5130a05c",
+          "_name": "GridView (4)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "661c35567eb401c1bc6db3fa",
+          "_name": "GridView (5)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "cbb27469f9d5dc5d57ba3dd3",
+          "_name": "GridView (6)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b80b7381fda9d3bcb7b5bf5a",
+          "_name": "GridView (7)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "14342c2f7d0d8ee45304fe47",
+          "_name": "GridView (8)",
+          "_parent": "6b45_medic",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "696dc233722ba6ada05f0dce",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "6B45 Armored Rig Medical Layout (ISB Edition)",
+        "_parent": "696dc254c5c596fba8d57789",
+        "_items": [
+          {
+            "_id": "696dc254c5c596fba8d57789",
+            "_tpl": "696dc1681e9886c9481337a1"
+          },
+          {
+            "_id": "696ec66454c41f0c06e0d808",
+            "_tpl": "68a47a76a920fa363a050bee",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "696ec66671a9c0f8882d2f93",
+            "_tpl": "68a47a92c3f53a3898071382",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "696ec669d1c560f1aae0ba60",
+            "_tpl": "68a47aae69e409f9e4094b65",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "696ec66cc6ec9bf69a05c07e",
+            "_tpl": "68a47acfa920fa363a050c1a",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "696ec66f10d8297122220241",
+            "_tpl": "68a47ae8f9d424639c088230",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "696ec6713d068996c053f655",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "696ec675712987c9b4e06882",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "696ec7f444dac171a60ec1a8",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "696ec7f6cf4faed62cd0f40b",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "696dc254c5c596fba8d57789",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "696dc1681e9886c9481337a1"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "6B45 Armored Rig Medical Layout (USEC Intelligence Support Bureau)",
+        "shortName": "6B45.M",
+        "description": "A full plate carrier setup built on the 6B45 vest. This setup allows for convenient placement of essential combat medical supplies and communication equipment. Black Camo variante for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete Tático Blindado 6B45 Layout Médico (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "6B45.M",
+        "description": "Um conjunto completo de porta-placas montado sobre o colete 6B45. Esta configuração permite a organização conveniente de suprimentos médicos de combate essenciais e equipamentos de comunicação. Variante com Camuflagem Preta para as Forças Especiais da ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 49283,
+
+    "handbookPriceRoubles": 12685,
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "addtoBots": false,
+
+    "addtoEmptyPropSlots": false,
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false
+  }
+}

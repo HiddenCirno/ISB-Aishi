@@ -1,0 +1,124 @@
+{
+  "69439100a320344f805ba61f": {
+
+    "itemTplToClone": "5c1d0c5f86f7744bb2683cf0",
+    "parentId": "5c164d2286f774194c5e69fa",
+    "handbookParentId": "5c518ed586f774119a772aee",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,  
+      "MaximumNumberOfUsage": 10,
+        
+
+      "Prefab": {
+
+        "path": "quests/quest_item_info_blackdivision_keycard_labs.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.01,
+
+      "Grids": []
+    },
+
+    "locales": {
+      "en": {
+        "name": "Black Division Access Card",
+        "shortName": "BlackDiv KC",
+        "description": "A high-level access card belonging to an agent of TerraGroup's internal special operations division, Black Division."
+      },
+      "po": {
+        "name": "Cartão de acesso da Black Division",
+        "shortName": "C. BlackDiv",
+        "description": "Um cartão de acesso de alto nível de um agente da divisão de operações especiais interna da TerraGroup, Black Division."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 2175600,
+
+    "handbookPriceRoubles": 1175600,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addPosterToMaps": false,
+
+    "posterSpawnProbability": 0,
+
+    "addtoStatuetteSlots": false,
+
+    "addCaliberToAllCloneLocations": false,
+
+    "addtoStaticAmmo": false,
+
+    "staticAmmoProbability": 0,
+
+    "addtoBots": false,
+
+    "addtoSpecialSlots": false,
+
+    "CanSellOnRagfair": false,
+
+    "CanRequireOnRagfair": false,
+    
+    "addtoItemBlacklist": true, 
+
+    "addtoModSlots": false,
+
+    "modSlot": [""],
+
+    "addtoHallOfFame": false,
+
+    "hallOfFameSlots": [
+      "bigTrophies", 
+      "smallTrophies", 
+      "dogTags"
+    ],
+
+    "addtoGeneratorAsFuel": false,
+
+    "generatorFuelSlotStages": [
+      "1",
+      "2",
+      "3"
+    ],
+
+    "addtoEmptyPropSlots": false,
+
+    "emptyPropSlot": {
+      "itemToAddTo": "",
+      "modSlot": ""
+    },
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false,
+
+    "addtoTraders": false,
+
+    "traders": {
+          },
+          "barters": [
+            {
+              "count": 0,
+              "_tpl": "0" 
+            }
+          ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "6a36f2ff7521fe0456759339": {
+
+    "itemTplToClone": "628b9c7d45122232a872358f",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_boss_blackknight_variant.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 3,
+
+
+      "Weight": 3.7
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6a36f2ff7521fe0456759339",
+        "_id": "6a36f31a0d06b61304dc3bd1",
+        "_items": [
+          {
+            "_id": "6a36f31fa8444620ea233d0c",
+            "_tpl": "6a36f2ff7521fe0456759339"
+          },
+          {
+            "_id": "6a36f3297069487f97d48291",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a36f32d074ef3892aaa65eb",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a36f32fd5698b54d93352ab",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6a36f3325dcbe3d5e3673988",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6a36f3346088b52fc53778ea",
+            "_tpl": "6575f24ff6a13a7b7100b09e",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a36f337d20e06843246a704",
+            "_tpl": "6575f25ada698a4e98067836",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6a36f33ac1fd904d489e8264",
+            "_tpl": "6575f26d9c7cad336508e480",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6a36f33cc31c8d4d3ca661f1",
+            "_tpl": "6575f2649cfdfe416f0399b8",
+            "parentId": "6a36f31fa8444620ea233d0c",
+            "slotId": "Soft_armor_left"
+          }
+        ],
+        "_name": "Crye Precision CPC plate carrier (Goons Edition II)",
+        "_parent": "6a36f31fa8444620ea233d0c",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Crye Precision CPC plate carrier (Goons Edition Version II)",
+        "shortName": "CPC GE II",
+        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility."
+      },
+        "po": {
+        "name": "Colete Tático Crye Precision CPC (Edição Goons Modelo II)",
+        "shortName": "CPC EG II",
+        "description": "The CAGE PLATE CARRIER (CPC) offers unmatched comfort and load-bearing support in a low-profile plate carrier configuration. The system is compatible with a variety of different pouches. In this case, the configuration was designed by the Goons squad leader—Knight—to enable assault operations with greater mobility."
+      }
+    },
+
+    "fleaPriceRoubles": 415900,
+
+    "handbookPriceRoubles": 119580,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

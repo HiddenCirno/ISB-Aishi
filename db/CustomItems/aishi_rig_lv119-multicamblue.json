@@ -1,0 +1,111 @@
+{
+  "6a42bca292297be57568f928": {
+
+    "itemTplToClone": "69e2441a18cb3157560855ec",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_spiritus_icebreaker_night.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 5.1
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6a42bc9fd866d5d7bd46e5ee",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
+        "_parent": "6a42bcac4672902d06ba6c9b",
+        "_items": [
+          {
+            "_id": "6a42bcac4672902d06ba6c9b",
+            "_tpl": "6a42bca292297be57568f928"
+          },
+          {
+            "_id": "6a456d7fdd00da76991fee15",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a42bcac4672902d06ba6c9b",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a456d8094924ff5825d4d4b",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a42bcac4672902d06ba6c9b",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a44a1fdbffd87e4d25ce5ea",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "6a42bcac4672902d06ba6c9b",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a44a1ff49ce7a24ad6e5610",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "6a42bcac4672902d06ba6c9b",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_encyclopedia": "6a42bca292297be57568f928"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+      },
+        "po": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+
+    "handbookPriceRoubles": 19580,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

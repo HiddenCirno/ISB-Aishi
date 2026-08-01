@@ -1,0 +1,120 @@
+{
+  "6943505b469b39a1ccd538bc": {
+
+    "itemTplToClone": "590a3efd86f77437d351a25b",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+        
+
+      "Prefab": {
+
+        "path": "quests/quest_item_info_radio2.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 1,
+      "Height": 2,
+      "Weight": 3.25,
+
+      "Grids": []
+    },
+
+    "locales": {
+      "en": {
+        "name": "Advanced SSTV KW12 Military Radio",
+        "shortName": "KW12 Radio",
+        "description": "An advanced long-range military radio manufactured by AEG-Telefunken. It was used during NATO operations worldwide due to its high reliability and resistance to interference or interception."
+      },
+      "po": {
+        "name": "Rádio Militar Avançado SSTV KW12",
+        "shortName": "Rádio KW12",
+        "description": "Um rádio militar avançado de alto alcance fabricado pela AEG-Telefunken. Ele foi utilizado durante operações no mundo inteiro da OTAN devido a alta confiabilidade e difícil capacidade de interrupções ou interceptações."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 1,
+
+    "handbookPriceRoubles": 1,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addPosterToMaps": false,
+
+    "posterSpawnProbability": 0,
+
+    "addtoStatuetteSlots": false,
+
+    "addCaliberToAllCloneLocations": false,
+
+    "addtoStaticAmmo": false,
+
+    "staticAmmoProbability": 0,
+
+    "addtoBots": false,
+
+    "addtoSpecialSlots": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoModSlots": false,
+
+    "modSlot": [""],
+
+    "addtoHallOfFame": false,
+
+    "hallOfFameSlots": [
+      "bigTrophies", 
+      "smallTrophies", 
+      "dogTags"
+    ],
+
+    "addtoGeneratorAsFuel": false,
+
+    "generatorFuelSlotStages": [
+      "1",
+      "2",
+      "3"
+    ],
+
+    "addtoEmptyPropSlots": false,
+
+    "emptyPropSlot": {
+      "itemToAddTo": "",
+      "modSlot": ""
+    },
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false,
+
+    "addtoTraders": false,
+
+    "traders": {
+          },
+          "barters": [
+            {
+              "count": 0,
+              "_tpl": "0" 
+            }
+          ]
+  }
+}

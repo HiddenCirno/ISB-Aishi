@@ -1,0 +1,64 @@
+{
+  "696dc36137943ac278917ac7": {
+
+    "itemTplToClone": "5648a69d4bdc2ded0b8b457b",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "InsuranceDisabled": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_blackrock_black.bundle",
+        "rcid": ""
+      },
+
+      "Width": 3,
+      "Height": 4,
+
+
+      "Weight": 1.45
+    },
+
+    "locales": {
+      "en": {
+        "name": "BlackRock chest rig (Black)",
+        "shortName": "BlackRock",
+        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. Black Variant for ISB Special Forces"
+      },
+        "po": {
+        "name": "Colete Tático BlackRock (Black)",
+        "shortName": "BlackRock",
+        "description": "Um colete tático customizado para uso sobre coletes balísticos em operações urbanas. Robusto e versátil, apresenta sistemas de fixação MOLLE e ALICE. Variante Preta para as Forças Especiais da ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 75900,
+
+    "handbookPriceRoubles": 40700,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "CanRequireOnRagfair": false,
+    
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

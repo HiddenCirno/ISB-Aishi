@@ -1,0 +1,133 @@
+{
+  "693ad9f9b7a7a2ad8112bbea": {
+
+    "itemTplToClone": "66b6295178bbc0200425f995",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_stich_defence_mod_2_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 3,
+
+
+      "Weight": 1.71
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "693ad9f9b7a7a2ad8112bbea",
+        "_id": "693afc35f1a5eb7e590057ae",
+        "_items": [
+          {
+            "_id": "693afc6499d86fd942da1fc6",
+            "_tpl": "693ad9f9b7a7a2ad8112bbea"
+          },
+          {
+            "_id": "693afc3d51e15b95f6dc369e",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "693afc43ace79e61d1052fc2",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "693afc471ad4569fc58a9fc6",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "693afc4a765d9eb82a8bdb8a",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "693afc4e3919f9e13f34dc31",
+            "_tpl": "6575f24ff6a13a7b7100b09e",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "693afc522a0e02a4321bf417",
+            "_tpl": "6575f25ada698a4e98067836",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "693afc5618c77cb0ec78a34a",
+            "_tpl": "6575f2649cfdfe416f0399b8",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "693afc5abcfc7833cce11f63",
+            "_tpl": "6575f26d9c7cad336508e480",
+            "parentId": "693afc6499d86fd942da1fc6",
+            "slotId": "soft_armor_right"
+          }
+        ],
+        "_name": "Crye Precision CPC plate carrier (ISB Edition)",
+        "_parent": "693afc6499d86fd942da1fc6",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Stich Profi Stich Defense mod.2 plate carrier (USEC Intelligence Support Bureau)",
+        "shortName": "SD MOD.2",
+        "description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. Night gray camouflage version for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete Tático Stich Profi Stich Defense mod.2 (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "SD MOD.2",
+        "description": "Um porta-placas projetado para placas Granit e SAPI, feito de materiais resistentes com remissão IR. Equipado com fivelas ROC para vestir e tirar rapidamente. Os lados internos são feitos de tecido macio e equipados com almofadas de ventilação para maior conforto. Fabricado pela Stich Profi. Versão camuflada cinza noturno para as Forças Especiais ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 144500,
+
+    "handbookPriceRoubles": 8680,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "6a07e9181d633a50969d3145": {
+
+    "itemTplToClone": "5e9dacf986f774054d6b89f4",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "addtoItemBlacklist": true,      
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_def2_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 3,
+      "Height": 4,
+
+
+      "Weight": 5.7,
+
+
+      "Grids": []
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6a07e9181d633a50969d3145",
+        "_id": "6a07f4e2865cce8bbc9b63ca",
+        "_items": [
+          {
+            "_id": "6a07f3c90803cc394b1289a8",
+            "_tpl": "6a07e9181d633a50969d3145"
+          },
+          {
+            "_id": "6a07f60b41e83d2b8beb8cb2",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a07f618040900669842981e",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a07fbaad8614ce632a9477a",
+            "_tpl": "65732e05d0acf75aea06c87f",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6a07fbadcd44ddf5d672bb15",
+            "_tpl": "65732df4d0acf75aea06c87b",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6a07f622889d0133087877f8",
+            "_tpl": "65732de75d3a3129fb05f3dd",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a07f624e7be0ae892b7d580",
+            "_tpl": "65732e0f6784ca384b0167ad",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6a07f6271d4ea94143559daf",
+            "_tpl": "65732e215d3a3129fb05f3e1",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "6a07f62b20bb97f78d5c357e",
+            "_tpl": "65732e30dd8739f6440ef383",
+            "parentId": "6a07f3c90803cc394b1289a8",
+            "slotId": "Groin"
+          }
+        ],
+        "_name": "FORT Defender-2 body armor (USEC Intelligence Support Bureau)",
+        "_parent": "6a07f3c90803cc394b1289a8",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "FORT Defender-2 body armor (USEC Intelligence Support Bureau)",
+        "shortName": "Defender-2",
+        "description": "The FORT OK \"Defender-2\" operational kit is a modification of the popular body armor FORT \"Defender\" designed for both VIP and for employees of operational combat units. The kit uses the maximum capabilities of the modular principle of building armor based on steel plates."
+      },
+        "po": {
+        "name": "Colete FORT Defender-2 (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "Defender-2",
+        "description": "O kit operacional FORT OK “Defender-2” é uma versão modificada do popular colete à prova de balas FORT “Defender”, projetado tanto para VIPs quanto para funcionários de unidades de combate operacionais. O kit aproveita ao máximo as possibilidades do princípio modular de construção de coletes à prova de balas com base em placas de aço."
+      }
+    },
+
+    "fleaPriceRoubles": 78900,
+
+    "handbookPriceRoubles": 5685,
+
+    "CanSellOnRagfair": false,
+
+    "CanRequireOnRagfair": false,
+    
+    "addtoItemBlacklist": true,    
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+
+    "addtoBots": false,
+
+    "addtoEmptyPropSlots": false,
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false
+  }
+}

@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>AishiKeysV2.Fika</AssemblyName>
+    <RootNamespace>AishiKeys.Fika</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Deterministic>true</Deterministic>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <SPTRoot Condition="'$(SPTRoot)' == ''">C:\SPTIV</SPTRoot>
+    <ManagedPath>$(SPTRoot)\EscapeFromTarkov_Data\Managed</ManagedPath>
+    <BepInExCore>$(SPTRoot)\BepInEx\core</BepInExCore>
+    <BepInExPlugins>$(SPTRoot)\BepInEx\plugins</BepInExPlugins>
+
+    <FikaCorePath Condition="'$(FikaCorePath)' == '' and Exists('$(BepInExPlugins)\Fika\Fika.Core.dll')">$(BepInExPlugins)\Fika\Fika.Core.dll</FikaCorePath>
+    <FikaCorePath Condition="'$(FikaCorePath)' == '' and Exists('$(BepInExPlugins)\Fika.Core.dll')">$(BepInExPlugins)\Fika.Core.dll</FikaCorePath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AishiKeysFikaBootstrap.cs" />
+    <Compile Include="AishiKeysPacket.cs" />
+    <Compile Include="FikaAishiKeysNetworkBridge.cs" />
+    <Compile Include="FikaWorldInteractionKeyPatch.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AishiKeysV2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCore)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ManagedPath)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExCore)\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Comfort">
+      <HintPath>$(ManagedPath)\Comfort.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Fika.Core">
+      <HintPath>..\..\ISB_SOF_BUILD_9\Reference\Fika.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedPath)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

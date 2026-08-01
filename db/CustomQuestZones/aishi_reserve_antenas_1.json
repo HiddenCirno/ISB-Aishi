@@ -1,0 +1,56 @@
+[
+  {
+    "ZoneId": "aishi_reserve_antena_1",
+    "ZoneName": "aishi_reserve_antena_1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-106.7599",
+      "Y": "6.304322",
+      "Z": "90.69071",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.75",
+      "Y": "3.5",
+      "Z": "2",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "aishi_reserve_antena_2",
+    "ZoneName": "aishi_reserve_antena_2",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-55.9371",
+      "Y": "5.394578",
+      "Z": "24.71742",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "4.25",
+      "Z": "2.75",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]

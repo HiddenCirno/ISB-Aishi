@@ -1,0 +1,41 @@
+[
+{
+  "id": "694176555b56f8b3181945b1",
+  "description": "694176555b56f8b3181945b1 description",
+  "name": "694176555b56f8b3181945b1 name",
+  "imageUrl": "/files/achievement/ISB-UN02.png",
+  "assetPath": "",
+  "rewards": [],
+  "conditions": {
+    "availableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69d6b682ad56229184efb4a2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a6930180b052dcd27aa3b7c",
+          "visibilityConditions": []
+        }
+    ],
+    "fail": []
+  },
+  "instantComplete": false,
+  "showNotificationsInGame": false,
+  "showProgress": false,
+  "prefab": "",
+  "rarity": "Rare",
+  "hidden": false,
+  "showConditions": false,
+  "progressBarEnabled": false,
+  "side": "Pmc",
+  "index": 3301
+}
+]

@@ -1,0 +1,415 @@
+{
+  "696eb88de33ae15a9957f724": {
+
+    "itemTplToClone": "68948b118c57a8a52301d7ae",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_6b45_assault_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 3,
+      "Height": 4,
+
+
+      "Weight": 4.3,
+
+
+      "Grids": [
+        {
+          "_id": "22c6bef9b2a4fd7df94b6888",
+          "_name": "GridView (1)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f746fa807da23537929e4bc9",
+          "_name": "GridView (2)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "70512b79cb3e37b0dfbda4e1",
+          "_name": "GridView (3)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "679acf084bae2eb4503348d6",
+          "_name": "GridView (4)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3ca4dbac62b264609479f71c",
+          "_name": "GridView (5)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b20f546fa21d110fb72e3a0c",
+          "_name": "GridView (6)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d93f3a8dd81f6c4b3a40f0fb",
+          "_name": "GridView (7)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4ee7e4fee9b7484eb731946b",
+          "_name": "GridView (8)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "953d433fa849bb7af7b7ffb5",
+          "_name": "GridView (9)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "877c9b2f81f148482e9de443",
+          "_name": "GridView (10)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "503435497bfe6fa92d7e1c98",
+          "_name": "GridView (11)",
+          "_parent": "6b45_assault",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "696dbee03ae1462f9d5330e0",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "6B45 Armored Rig Assault Layout (ISB Edition)",
+        "_parent": "696dbee5e3e0dcdb695a6c03",
+        "_items": [
+          {
+            "_id": "696dbee5e3e0dcdb695a6c03",
+            "_tpl": "696eb88de33ae15a9957f724"
+          },
+          {
+            "_id": "696eb71d857f7ad59708ec94",
+            "_tpl": "68a47a76a920fa363a050bee",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "696eb720749bae3b12ece0fe",
+            "_tpl": "68a47a92c3f53a3898071382",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "696eb7235d1415e534fc45fe",
+            "_tpl": "68a47aae69e409f9e4094b65",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "696eb725284e90e5efcaed3c",
+            "_tpl": "68a47acfa920fa363a050c1a",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "696eb7280b6f48eaae8cc446",
+            "_tpl": "68a47ae8f9d424639c088230",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "696eb72b26fbd60e35c201d0",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "696eb72ef45a589e1ac3266d",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "696eb731a657251e75e2de8b",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "696eb7335705b0f0d438538a",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "696dbee5e3e0dcdb695a6c03",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "696eb88de33ae15a9957f724"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "6B45 Armored Rig Assault Layout (USEC Intelligence Support Bureau)",
+        "shortName": "6B45.A",
+        "description": "A full plate carrier setup built on the 6B45 vest. This setup provides maximum space for carrying magazines and grenades. Black Camo variant for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete Tático Blindado 6B45 Layout de Assalto (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "6B45.A",
+        "description": "Um conjunto completo de porta-placas montado sobre o colete 6B45. Este layout oferece espaço máximo para o transporte de carregadores e granadas. Estilo camuflagem digital preto das Forças Especiais da ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 49283,
+
+    "handbookPriceRoubles": 12685,
+
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "addtoBots": false,
+
+    "addtoEmptyPropSlots": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false
+  }
+}

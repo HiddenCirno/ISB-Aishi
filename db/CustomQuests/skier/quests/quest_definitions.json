@@ -1,0 +1,104 @@
+{
+"69a9e71f596a6d5cc7ad6cd8": {
+    "QuestName": "Dúvida 01",
+    "_id": "69a9e71f596a6d5cc7ad6cd8",
+    "acceptPlayerMessage": "69a9e71f596a6d5cc7ad6cd8 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69a9e71f596a6d5cc7ad6cd8 changeQuestMessageText",
+    "completePlayerMessage": "69a9e71f596a6d5cc7ad6cd8 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69a9f28fa26c189bc6569092",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2,
+            3
+          ],
+          "target": "69a9e71f596a6d5cc7ad6cd8",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69a9f350ddc96bc501b9ecd0",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69a9f356f956cd05a2e8a314",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "698a82e7f718234ac7702f3d",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69df24651e2268b17a2a754e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "69a9e3cfe2ad4cc47d96cf22",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "69a9e71f596a6d5cc7ad6cd8 declinePlayerMessage",
+    "description": "69a9e71f596a6d5cc7ad6cd8 description",
+    "failMessageText": "69a9e71f596a6d5cc7ad6cd8 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/Skier_1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "69a9e71f596a6d5cc7ad6cd8 name",
+    "note": "69a9e71f596a6d5cc7ad6cd8 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "69a9e71f596a6d5cc7ad6cd8 startedMessageText",
+    "status": 0,
+    "successMessageText": "69a9e71f596a6d5cc7ad6cd8 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+                "type": "Skill"
+ }
+}

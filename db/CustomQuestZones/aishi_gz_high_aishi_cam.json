@@ -1,0 +1,52 @@
+[
+  {
+    "ZoneId": "gz_aishi_cam01",
+    "ZoneName": "gz_aishi_cam01",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "57.20296",
+      "Y": "31.17332",
+      "Z": "128.3439",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4.25",
+      "Y": "4",
+      "Z": "2",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "gz_aishi_cam02",
+    "ZoneName": "gz_aishi_cam02",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "14.08673",
+      "Y": "25.09454",
+      "Z": "72.42995",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0.006544938",
+      "Y": "0",
+      "Z": "0",
+      "W": "0.9999786"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "1.75",
+      "Z": "3.5",
+      "W": "0"
+    }
+  }
+]

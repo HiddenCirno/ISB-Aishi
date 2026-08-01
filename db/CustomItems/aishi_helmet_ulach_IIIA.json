@@ -1,0 +1,565 @@
+{
+  "6a0132335800bd16221e79fd": {
+
+    "itemTplToClone": "68bee2ccd6da72c13f03db95",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+
+
+    "overrideProperties": {
+      "QuestItem": false,
+      "BackgroundColor": "yellow",
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "InsuranceDisabled": true,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "ExaminedByDefault": false,
+      "PushToFleaBlacklist": true,
+      "Durability": 0,
+      "MaxDurability": 0,
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_ulach_iiia_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+
+
+      "Weight": 2.1,
+
+
+      "Grids": [
+      ]
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6a01495a8d555c5e178d490e",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Modified HighCom Striker ULACH IIIA helmet (Black)",
+        "_parent": "6a01496cef244286002a0e49",
+        "_items": [
+          {
+            "_id": "6a01496cef244286002a0e49",
+            "_tpl": "6a0132335800bd16221e79fd"
+          },
+          {
+            "_id": "6a0149800ff07c3d9db71cb4",
+            "_tpl": "6a054ca259012fe03b1809ac",
+            "parentId": "6a01496cef244286002a0e49",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "6a014a7045372095db1f4d83",
+            "_tpl": "6a054cbb1fd514626326eb43",
+            "parentId": "6a01496cef244286002a0e49",
+            "slotId": "Helmet_back"
+          },
+          {
+            "_id": "6a014a6eb68501878580e9ad",
+            "_tpl": "6a054d05a75160ceba4c9683",
+            "parentId": "6a01496cef244286002a0e49",
+            "slotId": "Helmet_ears"
+          }
+        ],
+        "_encyclopedia": "6a0132335800bd16221e79fd"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Modified HighCom Striker ULACH IIIA helmet (Black)",
+        "shortName": "ISB ULACH",
+        "description": "A combat helmet with the ears and back of the head protection, manufactured by HighCom. Spray painted in a black style."
+      },
+        "po": {
+        "name": "Capacete HighCom Striker ULACH IIIA modificado (Preto)",
+        "shortName": "ISB ULACH",
+        "description": "Um capacete de combate com proteção para as orelhas e a nuca, fabricado pela HighCom. Pintado com tinta spray na cor preta."
+      }
+    },
+
+    "fleaPriceRoubles": 222159,
+
+    "handbookPriceRoubles": 64900,
+
+    "addtoInventorySlots": ["HeadWear"],
+
+    "addtoBots": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a054ca259012fe03b1809ac": {
+
+    "itemTplToClone": "657112234269e9a568089eac",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 40,
+      "MaxDurability": 40,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      },
+        "po": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a054cbb1fd514626326eb43": {
+
+    "itemTplToClone": "657112a4818110db4600aa66",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 40,
+      "MaxDurability": 40,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      },
+        "po": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a054d05a75160ceba4c9683": {
+
+    "itemTplToClone": "657112ce22996eaf110881fb",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 16,
+      "MaxDurability": 16,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      },
+        "po": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a4d5649509240550e724ddd": {
+
+    "itemTplToClone": "655200ba0ef76cf7be09d528",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 32,
+      "MaxDurability": 32,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      },
+        "po": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a4d564f41a89458946af035": {
+
+    "itemTplToClone": "6551fec55d0cf82e51014288",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 32,
+      "MaxDurability": 32,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      },
+        "po": {
+          "name": "Modified Hybrid composite materials",
+          "shortName": "Modified Hybrid composite materials",
+          "description": "Modified Hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a4d5879b498ae06e3582412": {
+
+    "itemTplToClone": "69e24f4f9e6ca1b32508bfbc",
+    "parentId": "57bef4c42459772e8d35a53b",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
+
+
+    "overrideProperties": {
+      
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_wedge_boss_cover_artic.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0.1,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Team Wendy EXFIL helmet cover (MultiCam Alpine)",
+        "shortName": "EXFIL",
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Alpine camouflage is intended for snow operations."
+      },
+        "po": {
+        "name": "Team Wendy EXFIL helmet cover (MultiCam Alpine)",
+        "shortName": "EXFIL",
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Alpine camouflage is intended for snow operations."
+      }
+    },
+
+    "fleaPriceRoubles": 27827,
+    "handbookPriceRoubles": 1500,
+    "addtoModSlots": true,
+    "modSlot": ["mod_equipment_002"],
+    "addtoEmptyPropSlots": true,
+    "emptyPropSlot": {
+      "itemToAddTo": "5e00c1ad86f774747333222c",
+      "modSlot": "mod_equipment_002"
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a4d5940473d4411b409b02a": {
+
+    "itemTplToClone": "69e24f4f9e6ca1b32508bfbc",
+    "parentId": "57bef4c42459772e8d35a53b",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
+
+
+    "overrideProperties": {
+      
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_wedge_boss_cover_multicam.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0.1,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Team Wendy EXFIL helmet cover (MultiCam)",
+        "shortName": "EXFIL",
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam camouflage is intended for daytime operations."
+      },
+        "po": {
+        "name": "Team Wendy EXFIL helmet cover (MultiCam)",
+        "shortName": "EXFIL",
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam camouflage is intended for daytime operations."
+      }
+    },
+
+    "fleaPriceRoubles": 27827,
+    "handbookPriceRoubles": 1500,
+    "addtoModSlots": true,
+    "modSlot": ["mod_equipment_002"],
+    "addtoEmptyPropSlots": true,
+    "emptyPropSlot": {
+      "itemToAddTo": "5e00c1ad86f774747333222c",
+      "modSlot": "mod_equipment_002"
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

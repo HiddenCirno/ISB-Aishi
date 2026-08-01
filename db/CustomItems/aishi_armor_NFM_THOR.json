@@ -1,0 +1,164 @@
+{
+  "693ada144cedf3aae4935143": {
+
+    "itemTplToClone": "60a283193cb70855c43a381d",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_custom_thorintcar_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 8.5,
+
+
+      "Grids": []
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "693ada144cedf3aae4935143",
+        "_id": "693af26ddf4e81575a959c1d",
+        "_items": [
+          {
+            "_id": "693af526163aa7eb6b11bbf6",
+            "_tpl": "693ada144cedf3aae4935143"
+          },
+          {
+            "_id": "693af52974ace6d440f355ec",
+            "_tpl": "656fa61e94b480b8a500c0e8",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "693af52e8927ed9a6ba4c708",
+            "_tpl": "656fa61e94b480b8a500c0e8",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "693af53288fad1c906abc263",
+            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "693af5364633b02884f13820",
+            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "693af53a0bb9a9cdbbcc7752",
+            "_tpl": "6575d561b15fef3dd4051670",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "693af53fa0fb1f643f4cd3f1",
+            "_tpl": "6575d56b16c2762fba005818",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "693af5bb1424c570f98a97a1",
+            "_tpl": "6575d57a16c2762fba00581c",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "693af9e2a1510f9ee6dde72d",
+            "_tpl": "6575d589b15fef3dd4051674",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "693af544cbe98529aec3ac1d",
+            "_tpl": "6575d598b15fef3dd4051678",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "693af547a441f0802905557f",
+            "_tpl": "6575d5b316c2762fba005824",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "693af54ce2292a7f7b59c19c",
+            "_tpl": "6575d5bd16c2762fba005828",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "693af54fd952650d8103bc03",
+            "_tpl": "6575d5a616c2762fba005820",
+            "parentId": "693af526163aa7eb6b11bbf6",
+            "slotId": "Groin"
+          }
+        ],
+        "_name": "NFM THOR Integrated Carrier body armor (ISB Edition)",
+        "_parent": "693af526163aa7eb6b11bbf6",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "NFM THOR Integrated Carrier body armor (USEC Intelligence Support Bureau)",
+        "shortName": "THOR IC",
+        "description": "The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM. Customized Black Version for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete NFM THOR Integrated Carrier body armor (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "THOR IC",
+        "description": "A armadura de proteção total THOR está equipada com elementos de blindagem macios e rígidos para proteger contra estilhaços e balas de pistolas e rifles. Fabricada pela NFM. Versão preta personalizada para as Forças Especiais da ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 385550,
+
+    "handbookPriceRoubles": 13500,
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "addtoBots": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false
+  }
+}

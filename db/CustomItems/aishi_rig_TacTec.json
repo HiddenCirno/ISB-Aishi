@@ -1,0 +1,111 @@
+{
+  "69420ebfe113c8264c419d3d": {
+
+    "itemTplToClone": "5b44cad286f77402a54ae7e5",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_carriertactec_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 2.35
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69420ebfe113c8264c419d3d",
+        "_id": "694202d881af88df2dfb0db0",
+        "_items": [
+          {
+            "_id": "694202de13c472d8a3e33bf1",
+            "_tpl": "69420ebfe113c8264c419d3d"
+          },
+          {
+            "_id": "69420eb531c34de5b220ed3a",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "694202de13c472d8a3e33bf1",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "69420eb9835f2f31c6dd5835",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "694202de13c472d8a3e33bf1",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "694202fd2d085e528072d549",
+            "_tpl": "6575bc88c6700bd6b40e8a57",
+            "parentId": "694202de13c472d8a3e33bf1",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "69420300e93a589527e376f1",
+            "_tpl": "6575bca0dc9932aed601c5d7",
+            "parentId": "694202de13c472d8a3e33bf1",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "5.11 Tactical TacTec plate carrier (ISB Edition)",
+        "_parent": "694202de13c472d8a3e33bf1",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "5.11 Tactical TacTec plate carrier (USEC Intelligence Support Bureau)",
+        "shortName": "TacTec",
+        "description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical. Night Camo version for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete Tático 5.11 Tactical TacTec (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "TacTec",
+        "description": "Um porta-placas com um conjunto de bolsas para uso com espingardas de assalto. Fabricado pela 5.11 Tactical. Versão Night Camo para as Forças Especiais da ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 110450,
+
+    "handbookPriceRoubles": 5620,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

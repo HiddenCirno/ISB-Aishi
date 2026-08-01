@@ -1,0 +1,112 @@
+{
+  "6957e05fbac14a6e9fcfafc2": {
+
+    "itemTplToClone": "689479eb30cc5ba7be00f5ff",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,    
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_bd3_spiritus_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+     "Weight": 5.1
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6957fe411043fc385ddc97f0",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 Plate Carrier (ISB Edition V2)",
+        "_parent": "6957fe4528f7fcc6d0e3551d",
+        "_items": [
+          {
+            "_id": "6957fe4528f7fcc6d0e3551d",
+            "_tpl": "6957e05fbac14a6e9fcfafc2"
+          },
+          {
+            "_id": "6957fe4d9d9c0f41fe30c92e",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "6957fe4528f7fcc6d0e3551d",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6957fe52cab4fd0818d00e23",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "6957fe4528f7fcc6d0e3551d",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6957fe5694364294275cd191",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6957fe4528f7fcc6d0e3551d",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6957fe598f6ec128e863b2af",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6957fe4528f7fcc6d0e3551d",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "6957e05fbac14a6e9fcfafc2"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier V2 (USEC Intelligence Support Bureau)",
+        "shortName": "LV-119 V2",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Black version. This setup is equipped with breaching charges and multiple GP pouches for maximum equipment flexibility. Black Version for ISB Special Forces"
+      },
+        "po": {
+        "name": "Colete Tático Spiritus Systems LV-119 (Agência de Suporte a Inteligência da USEC - V2)",
+        "shortName": "LV-119 V2",
+        "description": "Um porta-placas modular altamente personalizável da Spiritus Systems, concebido para proporcionar o máximo conforto em combate. Versão preta. Esta configuração está equipada com cargas de brecha e várias bolsas GP para máxima flexibilidade do equipamento. Versão preta para as Forças Especiais ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 72937,
+
+    "handbookPriceRoubles": 6369,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

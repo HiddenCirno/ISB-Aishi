@@ -1,0 +1,392 @@
+{
+  "69e9a15b5e3782f47564fd86": {
+
+    "itemTplToClone": "68bee28f79c8186398098e6f",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "InsuranceDisabled": true,
+      "armorClass": "5",
+      "BackgroundColor": "yellow",
+      "IsUnbuyable": true,
+      "Durability": 0,
+      "MaxDurability": 0,
+      "Unlootable": false,
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_champion_bp2V2.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+
+
+      "Weight": 2.75,
+
+    "Grids": []
+    },
+
+    "locales": {
+      "en": {
+        "name": "Champion's helmet (ISB STF-A Edition)",
+        "shortName": "Champion",
+        "description": "A helmet whose history traces back to one of the Arena’s greatest gladiators, who was defeated in combat by an unknown challenger. The helmet was recovered in battle and modified with new ornaments and special textured armor for Apex Squadron leader Loghan of ISB SOF."
+      },
+        "po": {
+        "name": "Capacete do Campeão (Edição ISB STF-A)",
+        "shortName": "Campeão",
+        "description": "Um capacete cuja as histórias remetem a um dos melhores gladiadores da Arena derrotado em combate por um desafiante desconhecido. Seu capacete foi recuperado em combate, modificado com novos ornamentos e blindagem texturizada especial para o líder do esquadrão Apex, Loghan da ISB SOF."
+      }
+    },
+
+    "fleaPriceRoubles": 440942,
+
+    "handbookPriceRoubles": 119842,
+
+    "addtoInventorySlots": ["HeadWear"],
+
+    "addtoBots": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "CanRequireOnRagfair": false,
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "69e9ba0352bf1dae8e650b97",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Champion's helmet (ISB STF-A Edition)",
+        "_parent": "69e9ba087b96a2fc0f05e58d",
+        "_items": [
+          {
+            "_id": "69e9ba087b96a2fc0f05e58d",
+            "_tpl": "69e9a15b5e3782f47564fd86"
+          },
+          {
+            "_id": "69e9ba569f58dcbad6e1351e",
+            "_tpl": "69ea552ab22ec6fe8eee2241",
+            "parentId": "69e9ba087b96a2fc0f05e58d",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "69e9ba5956aa919a35729341",
+            "_tpl": "69ea599bc7045f8e1c03a018",
+            "parentId": "69e9ba087b96a2fc0f05e58d",
+            "slotId": "Helmet_back"
+          },
+          {
+            "_id": "69e9ba6127b828f281fd0ac3",
+            "_tpl": "69ea5a3f2b531e892d540545",
+            "parentId": "69e9ba087b96a2fc0f05e58d",
+            "slotId": "Helmet_eyes"
+          },
+          {
+            "_id": "69e9ba65352b10404b0efde9",
+            "_tpl": "69ea5ab038a6cade103f5c63",
+            "parentId": "69e9ba087b96a2fc0f05e58d",
+            "slotId": "Helmet_jaw"
+          }
+        ],
+        "_encyclopedia": "69e9a15b5e3782f47564fd86"
+      }
+    ],
+    
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea552ab22ec6fe8eee2241": {
+
+    "itemTplToClone": "68c2d8a05a62f5af2d095fe7",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false, 
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 50,
+      "MaxDurability": 50,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoItemBlacklist": true, 
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea599bc7045f8e1c03a018": {
+
+    "itemTplToClone": "68c2de2248616dad9e081d00",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false, 
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 50,
+      "MaxDurability": 50,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoItemBlacklist": true, 
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea5a3f2b531e892d540545": {
+
+    "itemTplToClone": "68c2e040f5b74996770e140c",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 50,
+      "MaxDurability": 50,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_eyes.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true, 
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea5ab038a6cade103f5c63": {
+
+    "itemTplToClone": "68c2e074f9ad4682dd0d5c1d",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 50,
+      "MaxDurability": 50,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_jaw.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true, 
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

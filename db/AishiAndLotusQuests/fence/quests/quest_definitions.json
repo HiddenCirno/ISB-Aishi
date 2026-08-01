@@ -1,0 +1,86 @@
+{
+  "6a6abb99edf7cc26c835638a": {
+    "QuestName": "As Paredes Falam",
+    "_id": "6a6abb99edf7cc26c835638a",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "Exploration",
+    "location": "5b0fc42d86f7744a585f9105",
+    "image": "/files/quest/icon/64c3cd095b03dccf8800271f.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "6a6abb99edf7cc26c835638a description",
+    "startedMessageText": "6a6abb99edf7cc26c835638a startedMessageText",
+    "successMessageText": "6a6abb99edf7cc26c835638a successMessageText",
+    "failMessageText": "6a6abb99edf7cc26c835638a failMessageText",
+    "acceptPlayerMessage": "6a6abb99edf7cc26c835638a acceptPlayerMessage",
+    "declinePlayerMessage": "6a6abb99edf7cc26c835638a declinePlayerMessage",
+    "completePlayerMessage": "6a6abb99edf7cc26c835638a completePlayerMessage",
+    "changeQuestMessageText": "6a6abb99edf7cc26c835638a changeQuestMessageText",
+    "name": "6a6abb99edf7cc26c835638a name",
+    "note": "6a6abb99edf7cc26c835638a note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ac2e34bd1d099a53563a2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a6abd124b41bb872e356393",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6abc5f52372a4b8e35638d",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6abc603e7b74867b35638e",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a3db1cab8a16aeffe0b456d",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    }
+  }
+}

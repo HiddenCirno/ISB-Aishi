@@ -1,0 +1,135 @@
+{
+  "6a07e92cf0655c4e29c5127e": {
+
+    "itemTplToClone": "5ab8dced86f774646209ec87",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_m2_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 2.25
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6a07e92cf0655c4e29c5127e",
+        "_id": "6a07f89fe17de864ced45f3a",
+        "_items": [
+          {
+            "_id": "6a07f8ae1098ee29a5779168",
+            "_tpl": "6a07e92cf0655c4e29c5127e"
+          },
+          {
+            "_id": "6a07f8b5774b385eb0eca963",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a07f8baefaba8a6e0551337",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a07f8bca57d89e2ac27a931",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6a07f8bfb99e8aad2d57d991",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6a07f8c285ba69d35cb5f85b",
+            "_tpl": "65730c0e292ecadbfa09ad49",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a07f8c4fdfe4f65c41c4160",
+            "_tpl": "65730c2213a2f660f60bea96",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6a07f8c7f76916a04719fa70",
+            "_tpl": "65730c2b292ecadbfa09ad50",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6a07f8cd7a08dfde774f8e99",
+            "_tpl": "65730c35292ecadbfa09ad54",
+            "parentId": "6a07f8ae1098ee29a5779168",
+            "slotId": "Soft_armor_left"
+          }
+        ],
+        "_name": "ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)",
+        "_parent": "6a07f8ae1098ee29a5779168",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)",
+        "shortName": "ANA M2",
+        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical."
+      },
+        "po": {
+        "name": "Equipamento tático blindado ANA M2 (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "ANA M2",
+        "description": "O colete M2 foi desenvolvido com base na vasta experiência dos operadores das forças especiais russas. A versatilidade do sistema permite que este colete seja utilizado tanto em missões urbanas quanto em terrenos acidentados. Fabricado pela ANA Tactical."
+      }
+    },
+
+    "fleaPriceRoubles": 90900,
+
+    "handbookPriceRoubles": 4620,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

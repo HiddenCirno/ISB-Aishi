@@ -1,0 +1,41 @@
+[
+{
+  "id": "6924c9c60db281e82adaf1df",
+  "description": "6924c9c60db281e82adaf1df description",
+  "name": "6924c9c60db281e82adaf1df name",
+  "imageUrl": "/files/achievement/ISB02.png",
+  "assetPath": "",
+  "rewards": [],
+  "conditions": {
+    "availableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69d6ac73a93cea6fc7e3eff6",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a6d684930253f787fd50a01",
+          "visibilityConditions": []
+        }
+    ],
+    "fail": []
+  },
+  "instantComplete": false,
+  "showNotificationsInGame": false,
+  "showProgress": false,
+  "prefab": "",
+  "rarity": "Rare",
+  "hidden": false,
+  "showConditions": false,
+  "progressBarEnabled": false,
+  "side": "Pmc",
+  "index": 3301
+}
+]

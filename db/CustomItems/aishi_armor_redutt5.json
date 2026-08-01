@@ -1,0 +1,165 @@
+{
+  "693ad9fede941f880a36e51d": {
+
+    "itemTplToClone": "5ca21c6986f77479963115a7",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false, 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_redut_t5_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 8.1,
+
+
+      "Grids": []
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "693ad9fede941f880a36e51d",
+        "_id": "693afdcde974a3ffe1c70d2a",
+        "_items": [
+          {
+            "_id": "693afdd1a45ef2c81be713fa",
+            "_tpl": "693ad9fede941f880a36e51d"
+          },
+          {
+            "_id": "693afe075908d647df135713",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "693afe0d641aedc71a6a1be5",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "693afe1091db9cdc6cb284c7",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "693afe15ff25031adc4cd4d5",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "693afe1c000d1148bf28f61e",
+            "_tpl": "6575d9a79e27f4a85e08112d",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "693afe22af78a8749d2db074",
+            "_tpl": "6575d9b8945bf78edd04c427",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "693afe25819206535fbd57de",
+            "_tpl": "6575d9c40546f8b1de093dee",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "693afe2927e3fe964ea20283",
+            "_tpl": "6575d9cf0546f8b1de093df2",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "693afe2f235a23755a9084be",
+            "_tpl": "6575d9d8945bf78edd04c42b",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "693afe33fe31ace76a7183cf",
+            "_tpl": "6575da07945bf78edd04c433",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "693afe3643a331e15330b2ae",
+            "_tpl": "6575da159e27f4a85e081131",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "693afe3a76e1c3b391003af8",
+            "_tpl": "6575d9e7945bf78edd04c42f",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "693afe3dc0770db70ff84661",
+            "_tpl": "6575d9f816c2762fba00588d",
+            "parentId": "693afdd1a45ef2c81be713fa",
+            "slotId": "Groin_back"
+          }
+        ],
+        "_name": "FORT Redut-T5 body armor (ISB Edition)",
+        "_parent": "693afdd1a45ef2c81be713fa",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "FORT Redut-T5 body armor (USEC Intelligence Support Bureau)",
+        "shortName": "Redut-T5",
+        "description": "The FORT \"Redut T5\" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation. Customized Black Version from ISB Special Forces"
+      },
+        "po": {
+        "name": "FORT Redut-T5 body armor (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "Redut-T5",
+        "description": "O colete à prova de balas FORT \"Redut T5\" é uma versão reforçada da série de coletes à prova de balas Redut, projetada com base em muitos anos de experiência em operações antiterrorismo na Federação Russa. Versão preta personalizada das Forças Especiais ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 261200,
+
+    "handbookPriceRoubles": 8200,
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "addtoBots": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

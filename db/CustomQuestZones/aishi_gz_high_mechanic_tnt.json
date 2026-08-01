@@ -1,0 +1,77 @@
+[
+  {
+    "ZoneId": "gz_mechanic_tnt01",
+    "ZoneName": "gz_mechanic_tnt01",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-9.679082",
+      "Y": "25.14465",
+      "Z": "45.94252",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "5.75",
+      "Y": "6.5",
+      "Z": "11",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "gz_mechanic_tnt02",
+    "ZoneName": "gz_mechanic_tnt02",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-3.243866",
+      "Y": "24.37499",
+      "Z": "71.36206",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "4.5",
+      "Z": "11.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "gz_mechanic_tnt03",
+    "ZoneName": "gz_mechanic_tnt03",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-18.82109",
+      "Y": "23.92957",
+      "Z": "99.80875",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "7",
+      "Y": "3.75",
+      "Z": "9.5",
+      "W": "0"
+    }
+  }
+]

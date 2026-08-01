@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "aishi_reserve_folder_1",
+    "ZoneName": "aishi_reserve_folder_1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-13.70008",
+      "Y": "32.92949",
+      "Z": "168.7725",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "2.25",
+      "Z": "3",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "type": "bottom",
+    "suiteId": "69b62d48cb53aef38eb1d259",
+    "outfitId": "69b62d4ae2b0dabf090f167c",
+    "bottomId": "69b62d4d079654ff5880a8ae",
+    "locales": {
+      "en": {
+        "name": "USEC ISB TACRES",
+        "description": "ISB TACRES Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/usec_mission/teste2_pants.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 20,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b6315961e1a5836059a880",
+    "outfitId": "69b6315ad0b09cb9a4f5c7a3",
+    "bottomId": "69b6315bb00352d7d7a077fa",
+    "locales": {
+      "en": {
+        "name": "ISBxRUAF Military Coalition Operator",
+        "description": "ISB x RUAF Ballistic Uniform"
+      }
+    },
+    "bottomBundlePath": "clothing/ruaf_ballistic/teste3_bottom.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.50,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": ["6917f4864286e5bd06fc451d"],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a3ec41d1a1f754b3b3c5809",
+    "outfitId": "6a3ec41f973ea3ecd84ecb9f",
+    "bottomId": "6a3ec420114cc86065e3dca2",
+    "locales": {
+      "en": {
+        "name": "ISBxRUAF Military Coalition Operator (MARPAT)",
+        "description": "ISB x RUAF Ballistic Uniform"
+      }
+    },
+    "bottomBundlePath": "clothing/ruaf_ballistic/teste3_bottom_daytime.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.50,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": ["6917f4864286e5bd06fc451d"],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b63ae895f6e2f60633b563",
+    "outfitId": "69b63aea13003de27aa67869",
+    "bottomId": "69b63aeb2c7f86bf61fef558",
+    "locales": {
+      "en": {
+        "name": "ISBxRUAF Military Coalition Officer",
+        "description": "ISB x RUAF Officer Uniform"
+      }
+    },
+    "bottomBundlePath": "clothing/ruaf_officer/isbxruaf_officer_pants.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.35,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": ["6917f4864286e5bd06fc451d"],
+    "achievementRequirements": ["694176509df5de06f529631f"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a3ec3dd9efb163f2eeb6a63",
+    "outfitId": "6a3ec3de0fe6727390aa0320",
+    "bottomId": "6a3ec3df5b488b670f3924b2",
+    "locales": {
+      "en": {
+        "name": "ISBxRUAF Military Coalition Officer (MARPAT)",
+        "description": "ISB x RUAF Officer Uniform"
+      }
+    },
+    "bottomBundlePath": "clothing/ruaf_officer/isbxruaf_officer_pants_daytime.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.35,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b6485f19f00860a6d80299",
+    "outfitId": "69b64860c3a60662008b0732",
+    "bottomId": "69b64861b3dda4f9fe8406ba",
+    "locales": {
+      "en": {
+        "name": "BEAR ISB Triarius",
+        "description": "ISB Triarius Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/bear_lynx/isb_pants_triarius.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 2,
+    "profileLevel": 25,
+    "standing": 0.25,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 800,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b6d114f22e791eb09b346b",
+    "outfitId": "69b6d115fd28d596733c9614",
+    "bottomId": "69b6d116afccb7b5ef967138",
+    "locales": {
+      "en": {
+        "name": "BEAR ISB Instructor",
+        "description": "ISB Instructor Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/bear_gorka/isb_pants_bear_instructor.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b64eced9c55407d3093a5f",
+    "outfitId": "69b64ecf4516edd904d585fc",
+    "bottomId": "69b64ed1e5380efd8b9421c4",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/usec_woodland/isb_usec_woodland_pants.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },    
+  {
+    "type": "bottom",
+    "suiteId": "69b625e0f5004560bb2d14f0",
+    "outfitId": "69b625e2e67be8d68976d4d2",
+    "bottomId": "69b625e4a069072d1f39e76c",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader",
+        "description": "BD1 Tactical Clothes"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_team_leader_01.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.60,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": ["694bf5bc5b0d85dce4d4a3c5"]
+  },  
+  {
+    "type": "bottom",
+    "suiteId": "69b626600d9e0b27bda01ce7",
+    "outfitId": "69b626625d16a5fbe3ec1d23",
+    "bottomId": "69b6266421caa034f068a347",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operator",
+        "description": "BD2 Tactical Clothes"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_02.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.50,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
+  },  
+  {
+    "type": "bottom",
+    "suiteId": "69b62667aa93b5fd5d9a0eac",
+    "outfitId": "69b626693a9974bfb245be64",
+    "bottomId": "69b6266bd5b5275e805820fe",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operator",
+        "description": "BD3 Tactical Clothes"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_03.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.50,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": ["694bf5aefeed87068122e731"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69b6266d56793144284a6184",
+    "outfitId": "69b6266f52b37fe076d3a836",
+    "bottomId": "69b62671fa64f886ae8de891",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operator",
+        "description": "BD4 Tactical Clothes"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_04.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": ["694bf54ab3c3a56da952d2f4"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a089b1fa1df0d75367cc7fb",
+    "outfitId": "6a089b2023db209164256fbe",
+    "bottomId": "6a089b22d472670811f33e3c",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Legionnaire",
+        "description": "ISB Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/legionnarie/pants_usec_raider_ISB.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.35,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 4500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a3f1b07861979e12f51372d",
+    "outfitId": "6a3f1b08c111e94f8dd7c900",
+    "bottomId": "6a3f1b09caa69d6b50223949",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Legionnaire (Desert)",
+        "description": "ISB Tactical Pants II"
+      }
+    },
+    "bottomBundlePath": "clothing/legionnarie/pants_usec_raider_ISB_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.35,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 4500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a089f79e8b68766277fba02",
+    "outfitId": "6a089f7a3be1ebf74d313ba0",
+    "bottomId": "6a089f7b43865d70514275b1",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Gladiator",
+        "description": "ISB Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/champion/pants_arena_intermediate_usec_ISB.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.65,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69e945fadf2575af720e59a4",
+    "outfitId": "69e945fc012e210d08b214ca",
+    "bottomId": "69e945fed02fdf9a151bf9bf",
+    "locales": {
+      "en": {
+        "name": "ISB STF White Tusk - Champion",
+        "description": "ISB STF-A Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/angels_champion/pants_angels_champion.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.00,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69e95ac079841b54ca397fe3",
+    "outfitId": "69e95ac21bf599abce9d5d90",
+    "bottomId": "69e95ac40025bf3a2300aeed",
+    "locales": {
+      "en": {
+        "name": "ISB STF White Tusk - Artic Squadron",
+        "description": "ISB STF-A Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/angels_gold/pants_angels_crusader.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.00,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69e961a4bc7177e6288c1d38",
+    "outfitId": "69e961a77b4c54635adc39e3",
+    "bottomId": "69e961a69138191270234dde",
+    "locales": {
+      "en": {
+        "name": "ISB STF White Tusk - USEC DesOps",
+        "description": "ISB STF-A Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/angels_desops/pants_angels_chameleon_softshell.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.00,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69f5317807224670e00610ab",
+    "outfitId": "69f5317a040d19443378c222",
+    "bottomId": "69f5317c1d6da9a53fd96fb3",
+    "locales": {
+      "en": {
+        "name": "ISB STF Goons - USEC Black Predator",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/knight/pants_boss_blackknight_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.65,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 6500,
+    "questRequirements": ["6917f4864286e5bd06fc451d", "69153dcab3aae4e9422e48a0", "691551f21744ab25e3e9ff77"],
+    "achievementRequirements": ["694178105154d75f7a0cfd10"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69f54e1bd2e671111a2aaccb",
+    "outfitId": "69f54e1c0109cfa31e7e5f13",
+    "bottomId": "69f54e1d2187cd91fbaf939c",
+    "locales": {
+      "en": {
+        "name": "ISB STF Goons - USEC Black Breacher",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/bigpipe/pants_boss_big_pipe_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 4500,
+    "questRequirements": ["6912ceca14c4d7453878e335", "69142292070bcc615773f970"],
+    "achievementRequirements": ["6924c9c60db281e82adaf1df"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69f5589cf0ddf2834e092bfb",
+    "outfitId": "69f5589fe41d4ed0a9ef63bc",
+    "bottomId": "69f558a0bc70a374eb2ba72a",
+    "locales": {
+      "en": {
+        "name": "ISB STF - USEC Black Sharpshooter",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/birdeye/pants_boss_birdeye_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": ["6914eaa069904863f3247ecd", "691509a8317f46ac275c10c4", "691514d147e21d507ab4c72f"],
+    "achievementRequirements": ["6924bcbfcb0c0c86b8f1aff6"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a2df4de88cef00b4dd0f6c4",
+    "outfitId": "6a2df4df61779b0b9906a550",
+    "bottomId": "6a2df4e08459a0cffb32373e",
+    "locales": {
+      "en": {
+        "name": "USEC STF Goons - Predator",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_boss_blackknight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.65,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 6500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a2df4f86a7f45858f3e59e1",
+    "outfitId": "6a2df4f970927830cbb2234d",
+    "bottomId": "6a2df4fa8ae61f0de6216a7a",
+    "locales": {
+      "en": {
+        "name": "USEC STF Goons - Breacher",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_boss_big_pipe.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 4500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a2df504703ffaf5c01f92a7",
+    "outfitId": "6a2df505b3c98b871834e907",
+    "bottomId": "6a2df50604c0b731c70defe3",
+    "locales": {
+      "en": {
+        "name": "USEC STF Goons - Sharpshooter",
+        "description": "ISB STF-Goons Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_boss_birdeye.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "69fac4019f225637638f0819",
+    "outfitId": "69fac403551d88f73519b8aa",
+    "bottomId": "69fac40425f8a8290483ca20",
+    "locales": {
+      "en": {
+        "name": "Black Division Defector - Squad Leader (Wolf)",
+        "description": "Black Division Tactical Pants II"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division/isb_pants_bd_team_leader_01.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a3f1956080aab5ba0e76dc4",
+    "outfitId": "6a3f1957f4c93bb48b284771",
+    "bottomId": "6a3f1958cc98824525d8e400",
+    "locales": {
+      "en": {
+        "name": "Black Division Defector - Squad Leader (Desert)",
+        "description": "Black Division Tactical Pants III"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division/isb_pants_bd_team_leader_01_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a2f66e0d735b2472d12fff7",
+    "outfitId": "6a2f66e14655013f581ca028",
+    "bottomId": "6a2f66e2c4da0da43b2bfcf2",
+    "locales": {
+      "en": {
+        "name": "Black Division Defector - Squad Leader (Moonlight)",
+        "description": "Black Division Tactical Pants III"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division/pants_bd_team_leader_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a179eb1129e302865319e97",
+    "outfitId": "6a179eb2aaf373253ef0da5c",
+    "bottomId": "6a179eb34771253dbc4f80a1",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/wedge/backport_pants_boss_wedge.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a2230f51f0ae72229315852",
+    "outfitId": "6a2230f7b5b1c98030d47cd4",
+    "bottomId": "6a2230f80688b9181561608b",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Golden)",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/sectant2/pants_boss_wedge_variant2.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }         
+]

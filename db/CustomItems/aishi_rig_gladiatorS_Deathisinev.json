@@ -1,0 +1,145 @@
+{
+  "6a4c674d34a3f449ea803c52": {
+
+    "itemTplToClone": "69d26ff4b855150a70092b8c",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_gladiator_s_champion_ISB.bundle",
+        "rcid": ""
+      },
+
+
+      "Height": 4,
+      "Weight": 7.12,
+      "Width": 3
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6a4c691230d4f2eb3c48fddb",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "FORT Gladiator-S Champion Standard",
+        "_parent": "6a4c6918389cf14c8c57df10",
+        "_items": [
+          {
+            "_id": "6a4c6918389cf14c8c57df10",
+            "_tpl": "6a4c674d34a3f449ea803c52"
+          },
+          {
+            "_id": "6a4c6921c056521d95d4aa5a",
+            "_tpl": "69d417691b47755f0f0aa678",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a4c6923a8129219ae2f194f",
+            "_tpl": "69d416249db8f66e870a8a65",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6a4c692545daf143733e922c",
+            "_tpl": "69d42a54fe02b60eed07a3cb",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6a4c6927d6ace3bd4edefded",
+            "_tpl": "69d429f7944e2afebd028bf8",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Soft_armor_right"
+          },
+          {
+            "_id": "6a4c6929dd1a090521a7e5e3",
+            "_tpl": "69d42490d91a53e51e0f940e",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "6a4c692c064c026f217eed71",
+            "_tpl": "69d4299657b9d0b39908cf8d",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "6a4c692e3b4a4779987885f2",
+            "_tpl": "69d42d4ed91a53e51e0f941f",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "6a4c69301bc564d44e1492be",
+            "_tpl": "69d42dadedc766341107f47d",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "6a4c6932fde35cf7edb47680",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a4c69341cb05dd5b361a868",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6a4c6918389cf14c8c57df10",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "6a4c674d34a3f449ea803c52"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "FORT Gladiator-S plate carrier (White Tusk Edition)",
+        "shortName": "Gladiator-S",
+        "description": "The Gladiator-S body armor by FORT, customized by the Arena Champion nicknamed JP. Since his very first appearance in the Arena as a gladiator, he never even thought of washing the blood off it. Why would he? It’s a symbol of strength."
+      },
+        "po": {
+        "name": "FORT Gladiator-S plate carrier (White Tusk Edition)",
+        "shortName": "Gladiator-S",
+        "description": "The Gladiator-S body armor by FORT, customized by the Arena Champion nicknamed JP. Since his very first appearance in the Arena as a gladiator, he never even thought of washing the blood off it. Why would he? It’s a symbol of strength."
+      }
+    },
+
+    "fleaPriceRoubles": 515900,
+
+    "handbookPriceRoubles": 219580,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

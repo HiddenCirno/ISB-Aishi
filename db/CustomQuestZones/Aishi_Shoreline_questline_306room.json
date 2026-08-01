@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "ba306shoreline",
+    "ZoneName": "ba306shoreline",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-289.2038",
+      "Y": "2.592882",
+      "Z": "-90.92544",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "2",
+      "Z": "1.75",
+      "W": "0"
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "ZoneId": "Aishi_Shoreline_TGCrate_1",
+    "ZoneName": "Aishi_Shoreline_TGCrate_1",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-617.965",
+      "Y": "-25.6936",
+      "Z": "-200.779",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "9.5",
+      "Y": "2.25",
+      "Z": "6.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Aishi_Shoreline_TGCrate_2",
+    "ZoneName": "Aishi_Shoreline_TGCrate_2",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-623.6294",
+      "Y": "-26.52959",
+      "Z": "-227.3136",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4.25",
+      "Y": "2.25",
+      "Z": "1.75",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Aishi_Shoreline_TGCrate_3",
+    "ZoneName": "Aishi_Shoreline_TGCrate_3",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-619.6416",
+      "Y": "-28.84523",
+      "Z": "-195.8813",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "2.25",
+      "Z": "2",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Aishi_Shoreline_TGCrate_4",
+    "ZoneName": "Aishi_Shoreline_TGCrate_4",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-639.979",
+      "Y": "-29.21602",
+      "Z": "-194.8694",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "11.75",
+      "Y": "3.25",
+      "Z": "3.75",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Aishi_Shoreline_TGCrate_5",
+    "ZoneName": "Aishi_Shoreline_TGCrate_5",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-644.7091",
+      "Y": "-25.64721",
+      "Z": "-224.2274",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "2.5",
+      "Z": "3.25",
+      "W": "0"
+    }
+  }
+]

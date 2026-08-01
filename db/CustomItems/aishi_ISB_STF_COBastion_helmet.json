@@ -1,0 +1,309 @@
+{
+  "69e9a2584f96ca8b30449811": {
+
+    "itemTplToClone": "66b5f65ca7f72d197e70bcd6",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "armorClass": "5",
+      "InsuranceDisabled": true,
+      "BackgroundColor": "yellow",
+      "IsUnbuyable": true,
+      "Durability": 0,
+      "MaxDurability": 0,
+      "Unlootable": false,
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_bastion_ISB.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+
+
+      "Weight": 1.55,
+
+    "Grids": [],
+      "Slots": [
+        {
+          "_id": "69e9b6093280468061a50c68",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "69e9a2584f96ca8b30449811",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "69e9b606386ba518300465bb",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "69e9a2584f96ca8b30449811",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61cfae98be930d701c029"
+                ],
+                "Plate": "66b61cfae98be930d701c029",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "69e9b604a2a0b5c20d29db4d",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "69e9a2584f96ca8b30449811",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61ce0c5d72b027748867e"
+                ],
+                "Plate": "66b61ce0c5d72b027748867e",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+
+    "locales": {
+      "en": {
+        "name": "Modified Ballistic Armor Co. Bastion helmet (ISB STF-A Edition)",
+        "shortName": "BAC Bastion",
+        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. A model painted in a light silver camouflage finish with modified decals. Designed for Firefly, the leader of the Cipher squadron, from ISB SOF."
+      },
+        "po": {
+        "name": "Capacete Ballistic Armor Co. Bastion modificado (Edição ISB STF-A)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion NIJ nível IIIA, projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. A model painted in a light silver camouflage finish with modified decals. Um modelo pintado com um acabamento camuflado prateado claro e decalques modificados. Concebido para o Firefly, o líder do esquadrão Cipher, da ISB SOF."
+      }
+    },
+
+    "fleaPriceRoubles": 150942,
+
+    "handbookPriceRoubles": 69842,
+
+    "addtoInventorySlots": ["HeadWear"],
+
+    "addtoBots": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "69e9bae399d0acf7269128f1",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Modified Ballistic Armor Co. Bastion helmet (ISB STF-A Edition)",
+        "_parent": "69e9bac332181cd7940f1189",
+        "_items": [
+          {
+            "_id": "69e9bac332181cd7940f1189",
+            "_tpl": "69e9a2584f96ca8b30449811"
+          },
+          {
+            "_id": "69e9bacea2712c7467310647",
+            "_tpl": "69ea65a9e640bbb08c86a4bb",
+            "parentId": "69e9bac332181cd7940f1189",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "69e9bad0b04198eb2dd1d453",
+            "_tpl": "69ea673522ba0b3c326b668e",
+            "parentId": "69e9bac332181cd7940f1189",
+            "slotId": "Helmet_back"
+          }
+        ],
+        "_encyclopedia": "69e9a2584f96ca8b30449811"
+      }
+    ],
+    
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea65a9e640bbb08c86a4bb": {
+
+    "itemTplToClone": "66b61cfae98be930d701c029",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 35,
+      "MaxDurability": 35,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true, 
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "69ea673522ba0b3c326b668e": {
+
+    "itemTplToClone": "66b61ce0c5d72b027748867e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "MaterialType": "Helmet",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "yellow",
+      "ItemSound": "gear_armor",
+      "armorPlateColliders":  [],
+      "armorClass": "5",
+      "Durability": 35,
+      "MaxDurability": 35,
+      "BluntThroughput": 0.1,
+      "RarityPvE":"Superrare",
+      "Prefab": {
+
+        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+        "rcid": ""
+      }
+      },
+
+
+        "Width": 1,
+        "Height": 1,
+
+
+        "Weight": 0,
+
+
+        "Grids": [
+        ],
+
+    "locales": {
+      "en": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
+      },
+        "po": {
+            "name": "Modified hybrid composite materials",
+            "shortName": "Modified hybrid composite materials",
+            "description": "Modified hybrid composite materials"
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+    "handbookPriceRoubles": 0, 
+    "addtoBots": false,
+    "addtoItemBlacklist": true, 
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

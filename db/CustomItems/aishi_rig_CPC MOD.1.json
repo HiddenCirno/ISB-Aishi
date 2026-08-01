@@ -1,0 +1,136 @@
+{
+  "694204bc230f3fb07068884f": {
+
+    "itemTplToClone": "5e4ac41886f77406a511c9a8",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_rig_cr_arscpc_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 3,
+
+
+      "Weight": 2.75
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "694204bc230f3fb07068884f",
+        "_id": "69efe36a672b643f15d8ddcd",
+        "_items": [
+          {
+            "_id": "694204d69ed3cc4c9d56b0a1",
+            "_tpl": "694204bc230f3fb07068884f"
+          },
+          {
+            "_id": "694218bcc66261aebb312c1c",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "front_plate"
+          },
+          {
+            "_id": "69421a8db2b9426030d2a34f",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "back_plate"
+          },
+          {
+            "_id": "69421a97b99925a58bd9726b",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "left_side_plate"
+          },
+          {
+            "_id": "69421a9aeea3cd3590e52a3c",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "right_side_plate"
+          },
+          {
+            "_id": "69421a9d5dfd18bac4fe3557",
+            "_tpl": "6575ef599c7cad336508e453",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "soft_armor_front"
+          },
+          {
+            "_id": "69421a9f80044fb12ff2859d",
+            "_tpl": "6575ef6bf6a13a7b7100b093",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "soft_armor_back"
+          },
+          {
+            "_id": "694218e3f94d81453137fd0d",
+            "_tpl": "6575ef7f9c7cad336508e457",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "694218e6c3b6ef73b8792161",
+            "_tpl": "6575ef78da698a4e980677eb",
+            "parentId": "694204d69ed3cc4c9d56b0a1",
+            "slotId": "soft_armor_left"
+          }
+        ],
+        "_name": "Crye Precision CPC plate carrier (ISB Edition)",
+        "_parent": "694204d69ed3cc4c9d56b0a1",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Ars Arma CPC MOD.1 plate carrier (USEC Intelligence Support Bureau)",
+        "shortName": "CPC MOD.1",
+        "description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. Black Camo version for ISB Special Forces."
+      },
+        "po": {
+        "name": "Colete Tático Ars Arma CPC MOD.1 (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "CPC MOD.1",
+        "description": "A primeira geração do porta-placas CPC modificado, originalmente projetado pela Crye Precision e adaptado pela Ars Arma para uso pelas forças especiais da Federação Russa. Esta armadura modular é baseada em um arnês de polímero que se ajusta ao tórax, o que evita o recuo do porta-placas durante movimentos ativos e também contribui para uma distribuição mais uniforme do peso. Fabricado na configuração de bolsas de assalto. Fabricado pela Ars Arma. Versão Black Camo para as Forças Especiais ISB."
+      }
+    },
+
+    "fleaPriceRoubles": 275900,
+
+    "handbookPriceRoubles": 3950,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

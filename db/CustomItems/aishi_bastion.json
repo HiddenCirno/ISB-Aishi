@@ -1,0 +1,175 @@
+{
+  "692497f0e4b9e93740b14c13": {
+
+    "itemTplToClone": "5ea17ca01412a1425304d1c0",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+
+
+    "overrideProperties": {
+      "QuestItem": false,
+      "BackgroundColor": "yellow",
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false, 
+      "InsuranceDisabled": true,
+      "ExaminedByDefault": false,
+      "PushToFleaBlacklist": true,
+            "Slots": [
+        {
+          "_id": "5ea17ca01412a1425304d1c3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "692497f0e4b9e93740b14c13",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ea18c84ecf1982c7712d9a2",
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "69e9a6ecb9a707df5df24b0d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "657f9b81c6679fefb3051e1d",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "692497f0e4b9e93740b14c13",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657bc285aab96fccee08bea3"
+                ],
+                "Plate": "657bc285aab96fccee08bea3",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "657f9b81c6679fefb3051e1e",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "692497f0e4b9e93740b14c13",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657bc2c5a1c61ee0c3036333"
+                ],
+                "Plate": "657bc2c5a1c61ee0c3036333",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_helmet_diamond_age_bastion_isb.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+
+
+      "Weight": 1.0,
+
+
+      "Grids": [
+      ]
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "692497f0e4b9e93740b14c13",
+        "_id": "693ba239d5e796c83a266cae",
+        "_items": [
+          {
+      "_id": "693ba24445ec1bf319d68472",
+      "_tpl": "692497f0e4b9e93740b14c13"
+          },
+    {
+      "_id": "6924992b49d34d8ba4fb8ac8",
+      "_tpl": "69277a7a146fb09981386959",
+      "parentId": "693ba24445ec1bf319d68472",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "692499286b831618cdf91545",
+      "_tpl": "69277b080a4ec3e6b2e9e453",
+      "parentId": "693ba24445ec1bf319d68472",
+      "slotId": "Helmet_back"
+    }
+        ],
+        "_name": "Custom ISB Special Forces Diamond Age Bastion helmet (Black)",
+        "_parent": "693ba24445ec1bf319d68472",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Custom ISB SOF Diamond Age Bastion helmet (Black)",
+        "shortName": "ISB Bastion",
+        "description": "According to the manufacturer - the Bastion helmet is the first combat helmet that can withstand a hit from a rifle, even with a bullet with an armored core at a muzzle speed. This model has been modified by ISB for use by their special forces. Black version."
+      },
+        "po": {
+        "name": "Capacete Bastion da Diamond Age das Forças Especiais da ISB (Preto)",
+        "shortName": "Bastion da ISB",
+        "description": "De acordo com o fabricante - o capacete Bastion é o primeiro capacete de combate que pode suportar um impacto de um rifle, mesmo com uma bala com núcleo blindado a uma velocidade de boca. Este modelo foi modificado pela ISB para uso por suas forças especiais. Versão preta."
+      }
+    },
+
+    "fleaPriceRoubles": 292137,
+
+    "handbookPriceRoubles": 124900,
+
+    "addtoInventorySlots": ["HeadWear"],
+
+    "addtoBots": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

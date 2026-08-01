@@ -1,0 +1,109 @@
+{
+  "69b8289f8ec3dce259c4036a": {
+
+    "itemTplToClone": "66b5f6985891c84aab75ca76",
+    "parentId": "5645bcb74bdc2ded0b8b4578",
+    "handbookParentId": "5b5f6f3c86f774094242ef87",
+
+
+    "overrideProperties": { 
+        "ExaminedByDefault": false,
+        "IsUnsaleable": true,
+        "BackgroundColor": "yellow",
+        "IsUnbuyable": true,
+        "CanSellOnRagfair": false,
+        "CanRequireOnRagfair": false,
+        "InsuranceDisabled": true,
+        "addtoItemBlacklist": true,  
+        "AmbientCompressorSendLevel": -20.5,
+        "AmbientVolume": -58,
+        "ClientPlayerCompressorSendLevel": -8,
+        "CompressorAttack": 33,
+        "CompressorGain": 7,
+        "CompressorRelease": 170,
+        "CompressorThreshold": -24,
+        "Distortion": 0.06,
+        "DropSoundType": "None",
+        "DryVolume": -65,
+        "EQBand1Frequency": 309,
+        "EQBand1Gain": 1.19,
+        "EQBand1Q": 1.3,
+        "EQBand2Frequency": 2700,
+        "EQBand2Gain": 1.2,
+        "EQBand2Q": 0.5,
+        "EQBand3Frequency": 5000,
+        "EQBand3Gain": 1.2,
+        "EQBand3Q": 0.6,
+        "EffectsReturnsCompressorSendLevel": -90,
+        "EffectsReturnsGroupVolume": -8,
+        "EnvCommonCompressorSendLevel": -8.8,
+        "EnvNatureCompressorSendLevel": -8,
+        "EnvTechnicalCompressorSendLevel": -17.5,
+        "GunsCompressorSendLevel": -10,
+        "HeadphonesMixerVolume": 0,
+        "HideEntrails": false,
+        "HighpassFreq": 250,
+        "HighpassResonance": 2.5,
+        "RolloffMultiplier": 1.535,
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_equipment_headset_comtac_7.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.40
+    },
+
+    "locales": {
+      "en": {
+        "name": "Peltor ComTac VII headset (Black)",
+        "shortName": "ComTac VII",
+        "description": "An enhanced version of the ComTac VI communication headset, with advanced ambient listening modes, improved noise isolation, and the NIB (Natural Interaction Behavior) feature, which enables direct communication with other operators using another ComTac VII at close range without the need for radios. Manufactured by 3M Peltor. Black version."
+      },
+      "po": {
+        "name": "Peltor ComTac VII headset (Black)",
+        "shortName": "ComTac VII",
+        "description": "Uma versão aprimorada do fone de ouvido de comunicação ComTac VI, com modos avançados de escuta do ambiente, isolamento acústico aprimorado e o recurso NIB (Natural Interaction Behavior), que permite a comunicação direta com outros operadores que utilizem outro ComTac VII a curta distância, sem a necessidade de rádios. Fabricado pela 3M Peltor. Versão em preto."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 195000,
+
+    "handbookPriceRoubles": 89900,
+
+    "addtoBots": false,
+
+    "addtoInventorySlots": [
+      "Earpiece"
+    ],
+
+    "addtoModSlots": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "modSlot": [],
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

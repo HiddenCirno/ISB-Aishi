@@ -1,0 +1,385 @@
+{
+  "6a1e14b82ce3a438f4b6b2e8": {
+
+    "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78e986f77447ed5636b1",
+
+
+    "overrideProperties": { 
+      "ExaminedByDefault": true,
+        "IsUnsaleable": true,
+        "IsUnbuyable": true,
+        "AllowFeed": false,
+        "AllowJam": true,
+        "BackgroundColor": "yellow",
+        "AllowMisfire": false,
+        "AllowOverheat": true,
+        "InsuranceDisabled": true,
+        "AllowSlide": false,
+        "Ergonomics": 58,
+        "ammoCaliber": "Caliber556x45NATO",
+        "bEffDist": 500,
+        "bFirerate": 890,
+        "bHearDist": 80,
+        "blockLeftStance": false,
+        "chamberAmmoCount": 1,
+        "defAmmo": "54527a984bdc2d4e668b4567",
+        "defMagType": "5d1340b3d7ad1a0b52682ed7",
+        "durabSpawnMax": 100,
+        "durabSpawnMin": 50,
+        "isBoltCatch": true,
+        "isChamberLoad": true,
+        "isFastReload": true,
+        "shotgunDispersion": 0,
+        "weapClass": "assaultRifle",
+        "weapFireType": [
+        "single",
+        "fullauto"
+        ],
+        "weapUseType": "primary",
+
+        
+
+      "Prefab": {
+
+        "path": "aishiweapons/weapon_isbm4a1_fdeV2.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.025,
+
+      "Grids": []
+    },
+
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+
+    "locales": {
+      "en": {
+        "name": "ISB Modified Colt M4A1 5.56x45 Assault Rifle V2 (FDE)",
+        "shortName": "ISB M4A1",
+        "description": "A modified variant of the Colt M4A1 carbine, adapted by ISB SOF for use in high-intensity special operations. This version replaces several standard components with optimized parts, including a re-engineered gas system, an improved bolt assembly, and reinforced internal components, resulting in a higher rate of fire without compromising the platform’s reliability."
+      },
+      "po": {
+        "name": "Rifle de Assalto Colt M4A1 5.56x45 assault rifle Modificado pela ISB V2 (FDE)",
+        "shortName": "M4A1 da ISB",
+        "description": "Uma variante modificada da carabina Colt M4A1, adaptada pela ISB SOF para uso em operações especiais de alta intensidade. Esta versão substitui diversos componentes padrão por peças otimizadas, incluindo um sistema de gases reajustado, conjunto de ferrolho aprimorado e componentes internos reforçados, resultando em uma cadência de tiro superior sem comprometer a confiabilidade da plataforma."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 149800,
+
+    "handbookPriceRoubles": 906700,
+
+    "addtoBots": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  },
+  "6a1e14e951104aabd4fa3b6e": {
+
+    "itemTplToClone": "55d355e64bdc2d962f8b4569",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+
+
+    "overrideProperties": {
+      "QuestItem": false,
+      "BackgroundColor": "yellow",
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+
+      "Durability": 100,
+      "Ergonomics": 9,
+      "HeatFactor": 1.02,
+      "Recoil": -5,
+      "Accuracy": 1,
+
+      "Slots": [
+        {
+          "_id": "6a1e14ef1ed2e287dcc4ddcb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6a1e14e951104aabd4fa3b6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a",
+                  "688a0bf28cdd409ce60911ce",
+                  "68caacc7933990601c07f479",
+                  "68a5ab09c44fa287ba0a97b5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "6a1e14f76cfad8fab83eb252",
+          "_required": false
+        },
+        {
+          "_id": "6a1e14fefa07746c299ef475",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "6a1e14e951104aabd4fa3b6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                "55d35ee94bdc2d61338b4568",
+                "55d3632e4bdc2d972f8b4569",
+                "5d440b93a4b9364276578d4b",
+                "5d440b9fa4b93601354d480c",
+                "5c0e2f94d174af029f650d56",
+                "63d3ce0446bd475bcb50f55f",
+                "63d3d44a2a49307baf09386d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "6a1e14f76cfad8fab83eb252",
+          "_required": true
+        },
+        {
+          "_id": "6a1e150088d2d7e85a4d9289",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "6a1e14e951104aabd4fa3b6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                "5c0e2f5cd174af02a012cfc9",
+                "619b5db699fb192e7430664f",
+                "5b2cfa535acfc432ff4db7a0",
+                "5ae30db85acfc408fb139a05",
+                "5c9a25172e2216000f20314e",
+                "55f84c3c4bdc2d5f408b4576",
+                "588b56d02459771481110ae2",
+                "5c9a26332e2216001219ea70",
+                "5ea16ada09aa976f2e7a51be",
+                "69fcd2dc03d8476407fb7ec0",
+                "5ea16acdfadf1d18c87b0784",
+                "55d459824bdc2d892f8b4573",
+                "5d122e7bd7ad1a07102d6d7f",
+                "5d123102d7ad1a004e475fe5",
+                "5d4405f0a4b9361e6a4e6bd9",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5c78f2492e221600114c9f04",
+                "5c78f2612e221600114c9f0d",
+                "6034e3e20ddce744014cb878",
+                "6034e3d953a60014f970617b",
+                "6034e3cb0ddce744014cb870",
+                "5c6d5d8b2e221644fc630b39",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "5d00f63bd7ad1a59283b1c1e",
+                "6087e0336d0bd7580617bb7a",
+                "595cfa8b86f77427437e845b",
+                "595cf16b86f77427440c32e2",
+                "63888bbd28e5cc32cc09d2b6",
+                "63f4ba71f31d4a33b87bd046",
+                "640b20359ab20e15ee445fa9",
+                "647de824196bf69818044c93",
+                "68c1707983e2d814b0093f7e",
+                "68c170e383e2d814b0093f87",
+                "68caac360bfe742288085e16",
+                "68caac28f42a4476cf0be2ac",
+                "68cc2ae66e59cb54f4054f47"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "6a1e14f76cfad8fab83eb252",
+          "_required": true
+        },
+        {
+          "_id": "6a1e150469192ef054e546fb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6a1e14e951104aabd4fa3b6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4",
+                  "68a63d3c8e977b40b2032286"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "6a1e14f76cfad8fab83eb252",
+          "_required": false
+        }
+      ],
+
+      "Prefab": {
+
+        "path": "aishiweapons/weapon_isbm4a1_RECI_fdeV2.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 1,
+
+
+      "Weight": 1.0,
+
+
+      "Grids": [
+      ]
+    },
+
+    "locales": {
+      "en": {
+        "name": "Modified M4A1 5.56x45 upper receiver v2 (FDE)",
+        "shortName": "M4A1",
+        "description": "An upper receiver for the M4A1 assault rifle manufactured by Colt. Equipped with a mount for attaching additional devices. Modified version designed to provide greater stability, improved recoil control, and ergonomic balance with additional mods. FDE Version"
+      },
+      "po": {
+        "name": "Receptor superior de M4A1 5.56x45 modificado para sistemas AR v2 (FDE)",
+        "shortName": "M4A1",
+        "description": "Um receptor superior para o fuzil de assalto M4A1 fabricado pela Colt. Equipado com um suporte para a fixação de dispositivos adicionais. Uma versão modificada projetada para oferecer maior estabilidade, melhor controle do recuo e equilíbrio ergonômico quando combinada com outras modificações. Versão FDE"
+      }
+    },
+
+    "fleaPriceRoubles": 89202,
+
+    "handbookPriceRoubles": 8592,
+
+    "addtoBots": true,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": true,
+
+    "ExaminedByDefault": true,
+
+    "PushToFleaBlacklist": true,    
+
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ],
+
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 200
+      }
+    ],
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

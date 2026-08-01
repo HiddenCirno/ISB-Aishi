@@ -1,0 +1,120 @@
+{
+  "6943505f5ebe991629d48f0d": {
+
+    "itemTplToClone": "590a3efd86f77437d351a25b",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": true,
+        
+
+      "Prefab": {
+
+        "path": "quests/quest_item_info_audio_recorder1.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 1,
+      "Height": 2,
+      "Weight": 0.23,
+
+      "Grids": []
+    },
+
+    "locales": {
+      "en": {
+        "name": "H4n Pro Audio Recorder",
+        "shortName": "H4n PRO",
+        "description": "A high-quality audio recording device, the H4n manufactured by Zoom Corporation is a benchmark in sound recording and audio quality. The H4n Pro is the “gold standard” for independent filmmakers and anyone who needs to record sound with high reliability."
+      },
+      "po": {
+        "name": "Gravador de Áudio H4n Pro",
+        "shortName": "H4n PRO",
+        "description": "Um equipamento de alta qualidade em captação de áudio o H4n fabricado pela Zoom Corporation é referência em gravação de som e qualidade de áudio. O H4n Pro é o \"padrão ouro\" para cineastas independentes e qualquer pessoa que precise gravar sons com alta confiabilidade."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 1,
+
+    "handbookPriceRoubles": 1,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addPosterToMaps": false,
+
+    "posterSpawnProbability": 0,
+
+    "addtoStatuetteSlots": false,
+
+    "addCaliberToAllCloneLocations": false,
+
+    "addtoStaticAmmo": false,
+
+    "staticAmmoProbability": 0,
+
+    "addtoBots": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoSpecialSlots": false,
+
+    "addtoModSlots": false,
+
+    "modSlot": [""],
+
+    "addtoHallOfFame": false,
+
+    "hallOfFameSlots": [
+      "bigTrophies", 
+      "smallTrophies", 
+      "dogTags"
+    ],
+
+    "addtoGeneratorAsFuel": false,
+
+    "generatorFuelSlotStages": [
+      "1",
+      "2",
+      "3"
+    ],
+
+    "addtoEmptyPropSlots": false,
+
+    "emptyPropSlot": {
+      "itemToAddTo": "",
+      "modSlot": ""
+    },
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false,
+
+    "addtoTraders": false,
+
+    "traders": {
+          },
+          "barters": [
+            {
+              "count": 0,
+              "_tpl": "0" 
+            }
+          ]
+  }
+}

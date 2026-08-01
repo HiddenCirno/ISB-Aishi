@@ -1,0 +1,320 @@
+{
+  "692485fa6de7f1ffffaf1167": {
+
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "InsuranceDisabled": true,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "yellow", 
+      "Slots": [
+        {
+          "_id": "6575e7bdf6a13a7b7100ad9f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "5e4abb5086f77406975c9342",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "692644216a57eab92f4d703b"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6575e7bdf6a13a7b7100ada0",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "5e4abb5086f77406975c9342",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "692644216a57eab92f4d703b"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6575e7bdf6a13a7b7100ada1",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "5e4abb5086f77406975c9342",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575d561b15fef3dd4051670"
+                ],
+                "Plate": "6575d561b15fef3dd4051670",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6575e7bdf6a13a7b7100ada2",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "5e4abb5086f77406975c9342",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575d56b16c2762fba005818"
+                ],
+                "Plate": "6575d56b16c2762fba005818",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_isbslick.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 3,
+      "Height": 3,
+
+
+      "Weight": 1.20,
+
+
+      "Grids": []
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "692485fa6de7f1ffffaf1167",
+        "_id": "69efe34b89f91c5eb17f2527",
+        "_items": [
+          {
+            "_id": "693b015416eacdbb4b8112b2",
+            "_tpl": "692485fa6de7f1ffffaf1167"
+          },
+          {
+            "_id": "693b019f6c49c0817f5d7c61",
+            "_tpl": "64afdcb83efdfea28601d041",
+            "parentId": "693b015416eacdbb4b8112b2",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "693b01a3a74a0d53c91000cc",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "693b015416eacdbb4b8112b2",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "693b01a71067616f676350d0",
+            "_tpl": "692779da997c775257768a40",
+            "parentId": "693b015416eacdbb4b8112b2",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "693b01aa887652750ac5f741",
+            "_tpl": "692776a87654e429f63f1e84",
+            "parentId": "693b015416eacdbb4b8112b2",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Custom ISB Special Forces LBT-6094A Slick Plate Carrier (Black)",
+        "_parent": "693b015416eacdbb4b8112b2",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Custom ISB SOF LBT-6094A Slick Plate Carrier (Black)",
+        "shortName": "ISB Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company and modified by ISB. The most minimalistic design intended for use with chest rigs. Black version."
+      },
+        "po": {
+        "name": "Colete LBT-6094A Slick (Preto) Modificado das Forças Especiais da ISB",
+        "shortName": "Slick da ISB",
+        "description": "Um colete simples, mas eficaz, fabricado pela London Bridge Trading company e modificado pela ISB. O design mais minimalista destinado ao uso com rigs de peito. Versão preta."
+      }
+    },
+
+    "fleaPriceRoubles": 412250,
+
+    "handbookPriceRoubles": 292150,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addtoInventorySlots": ["BodyArmor"],
+
+    "addPosterToMaps": false,
+
+    "posterSpawnProbability": 0,
+
+    "addtoStatuetteSlots": false,
+
+    "addCaliberToAllCloneLocations": false,
+
+    "InsuranceDisabled": true,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "addtoStaticAmmo": false,
+
+    "staticAmmoProbability": 0,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "addtoBots": false,
+
+    "addtoSpecialSlots": false,
+
+    "addtoModSlots": false,
+
+    "modSlot": [""],
+
+    "addtoHallOfFame": false,
+
+    "hallOfFameSlots": [
+      "bigTrophies", 
+      "smallTrophies", 
+      "dogTags"
+    ],
+
+    "addtoGeneratorAsFuel": false,
+
+    "generatorFuelSlotStages": [
+      "1",
+      "2",
+      "3"
+    ],
+
+    "addtoEmptyPropSlots": false,
+
+    "emptyPropSlot": {
+      "itemToAddTo": "628a66b41d5e41750e314f34",
+      "modSlot": "mod_muzzle"
+    },
+
+    "addtoStaticLootContainers": false,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+
+
+    "addtoSecureFilters": false,
+
+    "addtoTraders": false,
+
+    "traders": {
+      "AISHI": {
+
+        "6924841d554643c04fce2598": {
+
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 50,
+              "_tpl": "5696686a4bdc2da3298b456a"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

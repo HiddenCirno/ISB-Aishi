@@ -1,0 +1,135 @@
+{
+  "6a07e928f6c73d88baf0d370": {
+
+    "itemTplToClone": "5d5d87f786f77427997cfaef",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+      "BackgroundColor": "default", 
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_a18_black.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 3,
+
+
+      "Weight": 2.45
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6a07e928f6c73d88baf0d370",
+        "_id": "6a07f6f08f8d61a7c0a4e0ee",
+        "_items": [
+          {
+            "_id": "6a07f6f441ec3895a2347890",
+            "_tpl": "6a07e928f6c73d88baf0d370"
+          },
+          {
+            "_id": "6a07f6fda554bb215db6d810",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a07f7010c6847ccd751b285",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a07f703025ffbef8ed7a30f",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6a07f7061e7a4167068d9351",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6a07f7091f55f685bdbb62da",
+            "_tpl": "6570e5100b57c03ec90b970a",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a07f70c1f55f685bdbb62d7",
+            "_tpl": "6570e479a6560e4ee50c2b02",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6a07f70e6a5d9a59bbff34e1",
+            "_tpl": "6570e59b0b57c03ec90b970e",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6a07f70f1f55f685bdbb62d8",
+            "_tpl": "6570e5674cc0d2ab1e05edbb",
+            "parentId": "6a07f6f441ec3895a2347890",
+            "slotId": "Soft_armor_left"
+          }
+        ],
+        "_name": "Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)",
+        "_parent": "6a07f6f441ec3895a2347890",
+        "_type": "Preset"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)",
+        "shortName": "A18 Skanda",
+        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma."
+      },
+        "po": {
+        "name": "Plate carrier Ars Arma A18 Skanda (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "A18 Skanda",
+        "description": "Um colete de proteção equipado com um conjunto de bolsas na configuração de assalto. Fabricado pela Ars Arma."
+      }
+    },
+
+    "fleaPriceRoubles": 90900,
+
+    "handbookPriceRoubles": 4620,
+
+    "addtoHideoutPosterSlots": false,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "6a42a192ffa7266f3ae7139f": {
+
+    "itemTplToClone": "69e2441a18cb3157560855ec",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+
+
+    "overrideProperties": {
+      "QuestItem": false,  
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,   
+        
+      "Prefab": {
+
+        "path": "equipment/item_equipment_armor_spiritus_icebreaker_arid.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 4,
+      "Height": 4,
+
+
+      "Weight": 5.1
+    },
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6a449cd13b9a53ba370fcb29",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 Plate Carrier (MultiCam Arid)",
+        "_parent": "6a42a2fb9fbe7c40a13bad91",
+        "_items": [
+          {
+            "_id": "6a42a2fb9fbe7c40a13bad91",
+            "_tpl": "6a42a192ffa7266f3ae7139f"
+          },
+          {
+            "_id": "6a456d963784efce79379a1f",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a42a2fb9fbe7c40a13bad91",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6a456d988992d80598648a43",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "6a42a2fb9fbe7c40a13bad91",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6a42a30279c5fb6cfdaa1838",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "6a42a2fb9fbe7c40a13bad91",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6a42a3002e7e47918e2706a9",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "6a42a2fb9fbe7c40a13bad91",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_encyclopedia": "6a42a192ffa7266f3ae7139f"
+      }
+    ],
+
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (MultiCam Arid)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+      },
+        "po": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (MultiCam Arid)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+      }
+    },
+
+    "fleaPriceRoubles": 0,
+
+    "handbookPriceRoubles": 19580,
+
+    "addtoInventorySlots": ["TacticalRig"],
+
+    "addtoStaticLootContainers": false,
+
+    "CanSellOnRagfair": false,
+
+    "IsAlwaysAvailableForInsurance": false,
+
+    "InsuranceDisabled": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}
