@@ -7,7 +7,7 @@ namespace AishiKeys.Fika
 {
     public static class AishiKeysFikaBootstrap
     {
-        private const string HarmonyId = "com.samc137.aishikeysmod.fika";
+        private const string HarmonyId = "com.samc137.aishi";
 
         private static readonly object SyncRoot = new object();
         private static FikaAishiKeysNetworkBridge _bridge;

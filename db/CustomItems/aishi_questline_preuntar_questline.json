@@ -793,10 +793,7 @@
 
     "addtoEmptyPropSlots": false,
 
-    "emptyPropSlot": {
-      "itemToAddTo": "",
-      "modSlot": ""
-    },
+    "addtoItemBlacklist": true, 
 
     "addtoSecureFilters": false
   },

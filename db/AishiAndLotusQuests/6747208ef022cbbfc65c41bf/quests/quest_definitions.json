@@ -445,7 +445,35 @@
           "visibilityConditions": []
         }
       ],
-      "AvailableForStart": [],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6e7b77693a7c41552c26bc",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6e7b7a7b9592439d6ce98d",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a6ad307b056d89f85a30e2f",
+          "visibilityConditions": []
+        }
+      ],
       "Fail": []
     },
     "rewards": {

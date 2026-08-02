@@ -17,7 +17,7 @@ namespace AishiKeysPro
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     public class AishiKeysMod : BaseUnityPlugin
     {
-        public const string PluginGuid = "com.samc137.aishikeysmod";
+        public const string PluginGuid = "com.samc137.aishi";
         public const string PluginName = "AishiMasterKeyFunction";
         public const string PluginVersion = "1.0.0";
         public const string FikaPluginGuid = "com.fika.core";

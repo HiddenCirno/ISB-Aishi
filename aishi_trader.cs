@@ -29,7 +29,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "ISB Aishi";
     public override string Author { get; init; } = "SamC137";
     public override List<string>? Contributors { get; init; } = [""];
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.1");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.13");
     public override List<string>? Incompatibilities { get; init; } = [""];
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
@@ -132,16 +132,21 @@ public class EditDatabaseValues(
         ILogger<AddTraderWithAssortJson> logger)
         : IOnLoad
     {
+        private const double InsuranceReturnChancePercent = 80d;
+
         private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
         private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+        private readonly InsuranceConfig _insuranceConfig = configServer.GetConfig<InsuranceConfig>();
 
-        public async Task<Task> OnLoad()
+        public async Task OnLoad()
         {
             var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
             var traderImagePath = Path.Combine(pathToMod, "db/Aishi.png");
 
             var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "db/base.json");
+
+            _insuranceConfig.ReturnChancePercent[traderBase.Id] = InsuranceReturnChancePercent;
 
             imageRouter.AddRoute(traderBase.Avatar.Replace(".png", ""), traderImagePath);
             AishiLogger.SetTraderUpdateTime(_traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
@@ -151,7 +156,7 @@ public class EditDatabaseValues(
             AishiLogger.AddTraderWithEmptyAssortToDb(traderBase);
 
             var (_, trader) = databaseService.GetTraders()
-                .FirstOrDefault(t => t.Key == "690766de550bc322a810ea1e");
+                .FirstOrDefault(t => t.Key == traderBase.Id);
 
             if (trader != null)
             {
@@ -278,8 +283,6 @@ public class EditDatabaseValues(
             }
 
             wttCommon.CustomRigLayoutService.CreateRigLayouts(assembly);
-
-            return Task.CompletedTask;
         }
 
         Task IOnLoad.OnLoad()

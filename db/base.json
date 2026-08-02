@@ -13,11 +13,11 @@
   "gridHeight": 160,
   "insurance": {
     "availability": true,
-    "excluded_category": [ "5422acb9af1c889c16000029" ],
+    "excluded_category": [],
     "max_return_hour": 1,
     "max_storage_time": 76,
     "min_payment": 0,
-    "min_return_hour": 1
+    "min_return_hour": 6
   },
   "isAvailableInPVE": true,
   "isCanTransferItems": false,
