@@ -751,6 +751,7 @@
     "69ec67545b88f63aaa449786": "Neutralize 25 targets on Lighthouse (Except Rogues)",
     "69ec6885abf07304ee1df1f5": "Neutralize 10 Raiders on Reserve",
     "69ec687c3ed8d4d5311793a2": "Neutralize 10 Raiders in The Lab",
+    "69ec636b09e1a0e9b511a7e5 successMessageText": "Very well! We can understand the plan as a whole now.",
 
     "6a3cb7cff815823fa45ce5d8 name": "Brute-force and Decoding",
     "6a3cb7cff815823fa45ce5d8 description": "We have a lot to wrap our heads around. My people checked the drive and it is heavily encrypted. We asked Mechanic to help with it. Follow up with him and return when you have results.",
