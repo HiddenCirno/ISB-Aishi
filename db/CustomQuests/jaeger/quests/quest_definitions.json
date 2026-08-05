@@ -109,7 +109,7 @@
           "conditionType": "Level",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "690bcdf4d988bb7ad88cc1b5",
+          "id": "6a73a85c8f0f50d16e10e26f",
           "index": 0,
           "parentId": "",
           "value": 10,
@@ -121,7 +121,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "690bcdf4d988bb7ad88cc1b5",
+          "id": "6a73a86a4a646d1c6daf1f60",
           "index": 1,
           "parentId": "",
           "status": [
@@ -232,7 +232,7 @@
           "conditionType": "Level",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "690bcdf4d988bb7ad88cc1b5",
+          "id": "6a73a86e86de7a6ca6cede13",
           "index": 0,
           "parentId": "",
           "value": 1,
@@ -249,7 +249,6 @@
           "parentId": "",
           "status": [
             4,
-            5,
             9
           ],
           "target": "690bcb580b8f9c461c3eae53",
