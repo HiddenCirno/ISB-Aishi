@@ -36,16 +36,16 @@ public class AddBanners(
 
     private static readonly List<BannerDefinition> BannerDefinitions = new()
     {
-        new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", }),
-        new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", }),
+        new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs" }),
+        new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs" }),
         new BannerDefinition("ruaf_banner", "ruaf_banner.png", EnableRuafBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse" }),
         new BannerDefinition("untar_banner", "untar_banner.png", EnableUntarBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets" }),
-        new BannerDefinition("blackdiv_banner", "blackdiv_banner.png", EnableBlackDivBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", }),
+        new BannerDefinition("blackdiv_banner", "blackdiv_banner.png", EnableBlackDivBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "suburbs" }),
         new BannerDefinition("wedge_banner", "wedge_banner.png", EnableWedgeBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "suburbs" }),
         new BannerDefinition("cultist_banner", "cultist_banner.png", EnableCultistBanner, new[] { "woods", "factory4_night", "shoreline", "bigmap", "sandbox_high", "sandbox" }),
         new BannerDefinition("omon_banner", "omon_banner.png", EnableOmonBanner, new[] { "" }),
         new BannerDefinition("rem_banner", "rem_banner.png", EnableRemBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse" }),
-        new BannerDefinition("rogues_banner", "rogues_banner.png", EnableRoguesBanner, new[] { "lighthouse", }),
+        new BannerDefinition("rogues_banner", "rogues_banner.png", EnableRoguesBanner, new[] { "lighthouse", "suburbs" }),
         new BannerDefinition("pillagers_banner", "pillagers_banner.png", EnablePillagerBanner, new[] { "lighthouse", "shoreline", "interchange", "bigmap", "woods" }),
         new BannerDefinition("cleanupcrew_banner", "cleanupcrew_banner.png", EnableCleanupCrewBanner, new[] { "woods", "factory4_day", "shoreline", "bigmap" }),
         new BannerDefinition("bloodhounds_banner", "bloodhounds_banner.png", EnableBloodhoundsBanner, new[] { "bigmap", "woods", "shoreline" }),

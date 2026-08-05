@@ -2115,6 +2115,26 @@
             ]
         },
         {
+            "key": "equipment/isb_stim_etg_loot.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/content/weapons/usable_items/item_syringe/client_assets.bundle",
+                "assets/content/weapons/usable_items/item_syringe/stimulator_etg-change_diff",
+                "assets/content/weapons/usable_items/item_syringe/textures/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "equipment/isb_stim_sje3_loot.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/content/weapons/usable_items/item_syringe/client_assets.bundle",
+                "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs.bundle",
+                "assets/content/weapons/usable_items/item_syringe/textures/client_assets.bundle"
+            ]
+        },
+        {
             "key": "equipment/mag_mp7_hk_std_46x30_40_tan.bundle",
             "dependencyKeys": [
                 "cubemaps",
