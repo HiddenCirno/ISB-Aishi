@@ -1,0 +1,152 @@
+{
+  "690e2689cbd10f2ac5e766eb": {
+    "QuestName": "Interceptação",
+    "_id": "690e2689cbd10f2ac5e766eb",
+    "acceptPlayerMessage": "690e2689cbd10f2ac5e766eb acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "690e2689cbd10f2ac5e766eb changeQuestMessageText",
+    "completePlayerMessage": "690e2689cbd10f2ac5e766eb completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+          {
+          "conditionType": "FindItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6937a89eda352f46b8a30100",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "690e15d7799d853668054517"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690e26a05d880ff9624676c3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "690e15d7799d853668054517"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690e26d3f66a5a83d1b14562",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690e26da30f98159c6873fe1",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "690bcb580b8f9c461c3eae53",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+      {
+        "availableAfter": 0,
+        "conditionType": "Quest",
+        "dispersion": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "690e27fb746df538c34966ca",
+        "index": 1,
+        "parentId": "",
+        "status": [
+          4,
+          9
+        ],
+        "target": "690d8ad1750d535b2e9bc135",
+        "visibilityConditions": []
+      }
+      ]
+    },
+    "declinePlayerMessage": "690e2689cbd10f2ac5e766eb declinePlayerMessage",
+    "description": "690e2689cbd10f2ac5e766eb description",
+    "failMessageText": "690e2689cbd10f2ac5e766eb failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/Fence_1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "690e2689cbd10f2ac5e766eb name",
+    "note": "690e2689cbd10f2ac5e766eb note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [
+      {
+        "availableInGameEditions": [],
+        "id": "690e28830cef1180e2ca557f",
+        "index": 0,
+        "target": "579dc571d53a0658a154fbec",
+        "type": "TraderStanding",
+        "unknown": false,
+        "value": -0.03
+      }
+      ],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "690e2724d88ab6598e15f25a",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 3900
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "690e272b51a155a3a5d5f887",
+          "index": 0,
+          "target": "579dc571d53a0658a154fbec",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "690e2689cbd10f2ac5e766eb startedMessageText",
+    "status": 0,
+    "successMessageText": "690e2689cbd10f2ac5e766eb successMessageText",
+    "traderId": "579dc571d53a0658a154fbec",
+                "type": "PickUp"
+            }
+}
