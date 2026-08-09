@@ -1,0 +1,410 @@
+{
+  "6a6aa8e25ce77038f78f5360": {
+    "QuestName": "Até que sou bondosa",
+    "_id": "6a6aa8e25ce77038f78f5360",
+    "traderId": "690766de550bc322a810ea1e",
+    "type": "Exploration",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/6882265472eddff99c0b4db5.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "6a6aa8e25ce77038f78f5360 description",
+    "startedMessageText": "6a6aa8e25ce77038f78f5360 startedMessageText",
+    "successMessageText": "6a6aa8e25ce77038f78f5360 successMessageText",
+    "failMessageText": "6a6aa8e25ce77038f78f5360 failMessageText",
+    "acceptPlayerMessage": "6a6aa8e25ce77038f78f5360 acceptPlayerMessage",
+    "declinePlayerMessage": "6a6aa8e25ce77038f78f5360 declinePlayerMessage",
+    "completePlayerMessage": "6a6aa8e25ce77038f78f5360 completePlayerMessage",
+    "changeQuestMessageText": "6a6aa8e25ce77038f78f5360 changeQuestMessageText",
+    "name": "6a6aa8e25ce77038f78f5360 name",
+    "note": "6a6aa8e25ce77038f78f5360 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+            "conditionType": "PlaceBeacon",
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "6a6ab094783b46ba47b5772b",
+            "index": 1,
+            "parentId": "",
+            "plantTime": 8,
+            "target": [
+             "5ac78a9b86f7741cca0bbd8d"
+            ],
+            "value": 1,
+            "visibilityConditions": [],
+            "zoneId": "aishi_reserve_antena_1"
+        },
+        {
+            "conditionType": "PlaceBeacon",
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "6a6ab14a2dca8e1e627b78f0",
+            "index": 1,
+            "parentId": "",
+            "plantTime": 8,
+            "target": [
+             "5ac78a9b86f7741cca0bbd8d"
+            ],
+            "value": 1,
+            "visibilityConditions": [],
+            "zoneId": "aishi_reserve_antena_2"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6aa9ada4a46c52098f5363",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6aa9ad71a13802ac8f5364",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "69648a944599e194c4f71339",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6a6aa8e26f6d8872b88f5361",
+          "index": 0,
+          "type": "Experience",
+          "value": "9850",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6a6aa9d11c2af9ab308f5365",
+          "index": 1,
+          "target": "690766de550bc322a810ea1e",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        }
+      ]
+    }
+  },
+      "6a6ab405957e20e3ed0af439": {
+    "QuestName": "Raider Purge",
+    "_id": "6a6ab405957e20e3ed0af439",
+    "acceptPlayerMessage": "6a6ab405957e20e3ed0af439 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6a6ab405957e20e3ed0af439 changeQuestMessageText",
+    "completePlayerMessage": "6a6ab405957e20e3ed0af439 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+            {
+        "conditionType": "CounterCreator",
+        "counter": {
+          "conditions": [
+            {
+              "bodyPart": [],
+              "conditionType": "Kills",
+              "dynamicLocale": false,
+              "id": "6a6ab40a49e569ab0a02a770",
+              "distance": {},
+              "savageRole": [
+                "pmcBot"
+              ],
+              "target": "Savage",
+              "weapon": []
+            }
+          ],
+          "id": "6a6ab40d3023ac0ab22893ef"
+        },
+        "doNotResetIfCounterCompleted": false,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "6a6ab40e060af6fe3c0d533e",
+        "index": 0,
+        "oneSessionOnly": false,
+        "parentId": "",
+        "type": "Elimination",
+        "value": "25",
+        "visibilityConditions": []
+      }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ab4178adfc24dd5ce297a",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691548bdc3bab518501e1e7b",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a6ab405957e20e3ed0af439",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6a6ab405957e20e3ed0af439 declinePlayerMessage",
+    "description": "6a6ab405957e20e3ed0af439 description",
+    "failMessageText": "6a6ab405957e20e3ed0af439 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5a27cafa86f77424e20615d6.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a6ab405957e20e3ed0af439 name",
+    "note": "6a6ab405957e20e3ed0af439 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6a6ab4266d03608330ac4daf",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 15500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "691548cef625b0dee59d22eb",
+          "index": 0,
+          "target": "690766de550bc322a810ea1e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "69250d7a958569df6e611b51",
+          "index": 0,
+          "items": [
+            {
+              "_id": "5696686a4bdc2da3298b456a",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 860
+              }
+            }
+          ],
+          "target": "5696686a4bdc2da3298b456a",
+          "type": "Item",
+          "unknown": false,
+          "value": 860
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6a6ab405957e20e3ed0af439 startedMessageText",
+    "status": 0,
+    "successMessageText": "6a6ab405957e20e3ed0af439 successMessageText",
+    "traderId": "690766de550bc322a810ea1e",
+                "type": "Multi"
+            },
+  "6a6be0db93f4ebb01828169d": {
+    "QuestName": "Light of Lotus? ",
+    "_id": "6a6be0db93f4ebb01828169d",
+    "traderId": "690766de550bc322a810ea1e",
+    "type": "Levelling",
+    "location": "any",
+    "image": "/files/quest/icon/AishiBanner.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "6a6be0db93f4ebb01828169d description",
+    "startedMessageText": "6a6be0db93f4ebb01828169d startedMessageText",
+    "successMessageText": "6a6be0db93f4ebb01828169d successMessageText",
+    "failMessageText": "6a6be0db93f4ebb01828169d failMessageText",
+    "acceptPlayerMessage": "6a6be0db93f4ebb01828169d acceptPlayerMessage",
+    "declinePlayerMessage": "6a6be0db93f4ebb01828169d declinePlayerMessage",
+    "completePlayerMessage": "6a6be0db93f4ebb01828169d completePlayerMessage",
+    "changeQuestMessageText": "6a6be0db93f4ebb01828169d changeQuestMessageText",
+    "name": "6a6be0db93f4ebb01828169d name",
+    "note": "6a6be0db93f4ebb01828169d note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6be54ed788b87d372816a2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a6bf9b4e9edcd20cefd27ad",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6be5aab8e36105e72816aa",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "6a6a26c485ccac3917b1273c"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "6a6beee153a3188463cef311",
+              "target": "6a6be54ed788b87d372816a2"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6be1a27e67ee06c52816a0",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6be1a8325d63227b2816a1",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6a6bd1104381057dc49ab3ff",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "6a6bf2ddf8de83627f801dd2",
+          "index": 0,
+          "items": [
+            {
+              "_id": "6a6bf2dde51a21973dff6005",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 17
+              }
+            }
+          ],
+          "target": "6a6bf2dde51a21973dff6005",
+          "type": "Item",
+          "value": "17"
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6a6be0db847d920ee428169e",
+          "index": 0,
+          "type": "Experience",
+          "value": "20000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6a6be57365a7dd47672816a6",
+          "index": 1,
+          "target": "690766de550bc322a810ea1e",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6a6be57ed06584c74d2816a8",
+          "index": 2,
+          "target": "6747208ef022cbbfc65c41bf",
+          "type": "TraderStanding",
+          "value": "0.02",
+          "unknown": false
+        }
+      ]
+    }
+  }
+}
