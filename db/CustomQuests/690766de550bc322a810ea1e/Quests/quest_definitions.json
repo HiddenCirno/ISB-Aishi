@@ -40,22 +40,6 @@
           "parentId": "",
           "value": 1,
           "visibilityConditions": []
-        },
-        {
-          "availableAfter": 0,
-          "conditionType": "Quest",
-          "dispersion": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "6a73a84435ee374d455a1005",
-          "index": 1,
-          "parentId": "",
-          "status": [
-            4,
-            9
-          ],
-          "target": "66b38e144f2ab7cc530c3fe7",
-          "visibilityConditions": []
         }
       ],
       "Fail": []
