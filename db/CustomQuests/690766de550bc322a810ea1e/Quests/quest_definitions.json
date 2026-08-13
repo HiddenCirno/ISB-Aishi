@@ -13486,13 +13486,13 @@
               "_id": "6a3785beb605e66718d68105",
               "_tpl": "6937ecf8628ee476240c07cb",
               "upd": {
-                "StackObjectsCount": 1
+                "StackObjectsCount": 2
               }
             }
           ],
           "target": "6a3785beb605e66718d68105",
           "type": "Item",
-          "value": 1,
+          "value": "2",
           "unknown": false
         }
       ]
