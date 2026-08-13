@@ -952,6 +952,90 @@
       ]
     }
   },
+  "6a7d316935bfdf8609748f7a": {
+    "QuestName": "Aishi is Prob a Tsundere? Idk",
+    "_id": "6a7d316935bfdf8609748f7a",
+    "traderId": "690766de550bc322a810ea1e",
+    "type": "Discover",
+    "location": "any",
+    "image": "/files/quest/icon/AishiBanner.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "6a7d316935bfdf8609748f7a description",
+    "startedMessageText": "6a7d316935bfdf8609748f7a startedMessageText",
+    "successMessageText": "6a7d316935bfdf8609748f7a successMessageText",
+    "failMessageText": "6a7d316935bfdf8609748f7a failMessageText",
+    "acceptPlayerMessage": "6a7d316935bfdf8609748f7a acceptPlayerMessage",
+    "declinePlayerMessage": "6a7d316935bfdf8609748f7a declinePlayerMessage",
+    "completePlayerMessage": "6a7d316935bfdf8609748f7a completePlayerMessage",
+    "changeQuestMessageText": "6a7d316935bfdf8609748f7a changeQuestMessageText",
+    "name": "6a7d316935bfdf8609748f7a name",
+    "note": "6a7d316935bfdf8609748f7a note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a7d333f6f468a92c49aa732",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "690f6e1e9e966ad660423991",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a7d3341c00a0c9a5d9c42e9",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "6a7d319b84694856aa644aa4",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6a7d3345ce32aa1527f3322f",
+          "index": 0,
+          "target": "690766de550bc322a810ea1e",
+          "type": "TraderStanding",
+          "value": "0.01",
+          "unknown": true
+        }
+      ]
+    }
+  },
   "690a553efc51c1efb8c22ded": {
     "QuestName": "Reconstruindo confiança - Parte 1",
     "_id": "690a553efc51c1efb8c22ded",

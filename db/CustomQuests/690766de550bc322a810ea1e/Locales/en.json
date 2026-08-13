@@ -31,6 +31,11 @@
     "6a4de4da46604165ad7d0ce1 successMessageText": "What was I thinking, assuming you'd actually be useful.",
     "6a4de50952dc1c175e7d0ce5": "Observe Mechanic's movements",
 
+    "6a7d316935bfdf8609748f7a name": "Interpretation",
+    "6a7d316935bfdf8609748f7a description": "Tracking Mechanic's moves doesn't mean breaking the cameras I had you plant. Look... honestly, whatever. This was all a waste of time. Just go on with your life in Tarkov.",
+    "6a7d316935bfdf8609748f7a successMessageText": "Hm...",
+    "6a7d31b9bbdefa4003ae4bbb": "Regain Aishi's trust (Maybe Jaeger can help)",
+
     "6a4de6851d3fc0503f000c17 name": "A Good Scouting",
     "6a4de6851d3fc0503f000c17 description": "Well, I don't think Mechanic is someone worth having as an enemy. I spoke with him recently over the radio and we made some deals. We expect you to act as a bridge here.",
     "6a4de6851d3fc0503f000c17 startedMessageText": "",
@@ -419,14 +424,14 @@
     "6927c77a68a96ac088d64954 acceptPlayerMessage": "In here, we have an interesting workflow when it comes to weapons. Our field agents eventually neutralize BEAR and RUAF agents, it happens... Anyway, we have a habit of investigating and understanding the enemy's equipment, so our engineering team disassembles the weapons, identifies the parts individually, and makes a list. We then send it to Tier 2 to assemble them so we can confirm the configuration. \n\nSince most of our Tier 2 personnel are busy, you'll be in charge of this task. To be fair, since you're assembling non-Western weapons, I'll pay you in Roubles. I heard Mechanic has already asked you to build some weapons; it's similar. Since I'm in a great mood, I'll disassemble one of my Glocks and send you the list just like the engineering team does, so you can get used to it, okay?",
     "6927c77a68a96ac088d64954 successMessageText": "You learn fast, congratulations!",
     "6927ca27fda030e8aefbf5e1": "Modify and hand over the Glock 17 with the requested specifications.",
-    "6927ef11360651cfa08568e2": "Eliminate 6 targets with a Glock 17 modified according to the requested specifications.",
+    "6927ef11360651cfa08568e2": "Eliminate targets with a Glock 17 modified according to the requested specifications.",
 
     "692a6a8bfe6ebf8a133bea5e name": "The Enemy's Mind - Part 2",
     "692a6a8bfe6ebf8a133bea5e description": "Now that you've partially understood, let's start with the real work. We've acquired a very simple PP-19-01, but even simple ones need to have their manufacturing and model precisely recorded. We're counting on you. \n\nEquipment Description \n\nWeapon: PP-19-01 Vityaz 9x19mm submachine gun \nType: Suppressed \nErgonomics: 41 or higher \nHorizontal Recoil: 184 \nVertical Recoil: 39 \n\nEquipment Specifications \n\nStock: Standard \nGrip: Standard \nMagazine Capacity: 30 \nReceiver: PP-19-01 Vityaz-SN dust cover \nCharging Handle: None \nSight: Walther MRS reflex sight \nHandguard: Magpul MOE AKM handguard (FDE) for AK \nGas Block: Standard \nSuppressor: PP-19-01 Vityaz 9x19 sound suppressor",
     "692a6a8bfe6ebf8a133bea5e acceptPlayerMessage": "Now that you've partially understood, let's start with the real work. We've acquired a very simple PP-19-01, but even simple ones need to have their manufacturing and model precisely recorded. We're counting on you.",
     "692a6a8bfe6ebf8a133bea5e successMessageText": "You're doing well, keep it up.",
     "6929e197e07aa4421bde3e87": "Modify and hand over a PP-19-01 Vityaz-SN 9x19mm submachine gun with the requested specifications.",
-    "6929e2876635a7bce53d8a23": "Eliminate 6 targets with a PP-19-01 Vityaz-SN 9x19mm submachine gun modified according to specifications.",
+    "6929e2876635a7bce53d8a23": "Eliminate targets with a PP-19-01 Vityaz-SN 9x19mm submachine gun modified according to specifications.",
 
     "692a6e6ad008d27306f38d5c name": "The Enemy's Mind - Part 3",
     "692a6e6ad008d27306f38d5c description": "We recently picked up an interesting AKM. Reduced magazine, visually restored. I confess I didn't find it very efficient, but some engineers here are interested in building its blueprint, so we'll leave it in your hands again. \n\nEquipment Description \n\nWeapon: Kalashnikov AKM 7.62x39 assault rifle \nType: Unsuppressed \nErgonomics: 60 or higher \nHorizontal Recoil: 223 \nVertical Recoil: 88 \n\nEquipment Specifications \n\nStock: AK-74 polymer stock (Black) \nStock Pad: AK GP-25 accessory kit recoil pad \nGrip: AKS-74U bakelite pistol grip \nMagazine Capacity: 20 \nReceiver: AKademia Bastion dust cover for AK \nCharging Handle: None \nSight: Valday Krechet reflex sight \nHandguard: AK Magpul Zhukov-U handguard (Black) \nTactical Grip: Magpul M-LOK AFG tactical foregrip (Black) \nGas Block: Standard \nMuzzle: AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake",
@@ -446,7 +451,7 @@
     "692d248d323b786edd54307e acceptPlayerMessage": "9x39mm caliber rifles are very interesting and are barely used by NATO or Western forces. We have a new request from the engineers for a KBP VSK-94. Good luck!",
     "692d248d323b786edd54307e successMessageText": "Satisfactory performance. Take this, you deserve it.",
     "692d2be4432d4163652c724b": "Modify and hand over a KBP VSK-94 9x39 rifle with the requested specifications.",
-    "692d25ef0a857796aaad2ad0": "Eliminate 6 targets with a KBP VSK-94 9x39 rifle modified according to specifications.",
+    "692d25ef0a857796aaad2ad0": "Eliminate targets with a KBP VSK-94 9x39 rifle modified according to specifications.",
 
     "692d2b4e5f3b1677b9c04834 name": "The Enemy's Mind - Part 6 - Sabotage",
     "692d2b4e5f3b1677b9c04834 description": "We've received information that a group of BEARs collaborated with some Scavs to mass-produce SV-98s adapted for long-range combat with high precision. It's a cheap setup, but if we have the opportunity to ruin their plan, we'll take it. I need you to build an SV-98 bolt-action sniper rifle with the worst possible configuration; anything you want to take off or put on is fine. We just need it to have three things. \n\n- 10-round capacity magazine \n- Leapers UTG 25mm ring scope mount \n- VOMZ Pilad 4x32 25.4mm riflescope",
@@ -484,7 +489,7 @@
     "692e773e3b10698b80de19dd acceptPlayerMessage": "Ever met Kaban? Don't worry, I won't send you to Streets of Tarkov, but during some reconnaissance, we noticed that some of his personal bodyguards use SAG AK-545 carbines. By default, it's an interesting gun, so we gathered some info to build one—or rather, for you to build one.",
     "692e773e3b10698b80de19dd successMessageText": "Great! Who knows, maybe one day I'll have you test it there in Streets of Tarkov.",
     "692e75ddab3c9453725ec7ca": "Modify and hand over a SAG AK-545 5.45x39 with the requested specifications.",
-    "692e760fe88e4dd6d56a8fc6": "Eliminate 6 targets with a SAG AK-545 5.45x39 modified according to specifications.",
+    "692e760fe88e4dd6d56a8fc6": "Eliminate targets with a SAG AK-545 5.45x39 modified according to specifications.",
 
     "692e891b499e7bf623c9a0d7 name": "The Enemy's Mind - Part 10",
     "692e891b499e7bf623c9a0d7 description": "Occasionally, we have a concern with Snipers, and although we have our own marksmen, knowing that you could be hit at any moment by someone you have no idea where they are is terrifying. We recently captured a USEC operator nearby who was giving our people a hard time. He was armed with a DVL-10 sniper rifle, which is becoming quite common in Tarkov according to our records. The team cataloged his weapon's configuration, and now it's up to you. \n\nEquipment Description \n\nWeapon: Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle \nType: Suppressed \nErgonomics: 40 \nHorizontal Recoil: 369 \nVertical Recoil: 40 \n\nEquipment Specifications \n\nStock: Standard \nGrip: AR-15 F1 Firearms Skeletonized style 2 PC pistol grip \nMagazine Capacity: 10 \nScope Mount: Lobaev Arms 30mm scope mount \nSight: EOTech Vudu 1-6x24 30mm riflescope \nTactical Device: Harris S-BRM bipod 6-9\"",
@@ -599,7 +604,7 @@
     "6961dfcf46370012416ab8a9 successMessageText": "Well done. We’ll update the software as quickly as possible for your next mission.",
     "6961dfcf46370012416ab8a9 acceptPlayerMessage": "That minimally positive relationship with Peacekeeper actually bore fruit. We received word from some UNTAR officers that certain TerraGroup items will be collected for forensics. They’re starting at Shoreline with the assets at the Smuggler's Base.\n\nLet’s start this game with something light. We need to track those items, but UNTAR isn't that stupid. We’re going to disguise some common devices as mobile phones among those TerraGroup items. To do this, we need to revive an old tracking software located on a flash drive inside the Lab, specifically in the Yellow area. Collect the flash drive, eliminate some targets, and deliver it to our drop-off point at Lighthouse—a burnt-out bus on the main road.\n\nGood luck!",
     "6961dbc307b863a9a92bfd6c": "Find the flash drive with the outdated software in The Lab",
-    "6961dc3f1bbc381245b995bc": "Eliminate 6 targets with headshots in The Lab",
+    "6961dc3f1bbc381245b995bc": "Eliminate targets with headshots in The Lab",
     "6961dc66b45747f458f079d3": "Survive and extract from The Lab",
     "6961dc74b9ca6991fc253aaf": "Place the flash drive with the outdated software at the Lighthouse drop-off point",
     "6961df4ae3a7ce626d029e40": "Survive and extract from Lighthouse",

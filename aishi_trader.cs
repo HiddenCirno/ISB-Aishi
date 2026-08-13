@@ -29,13 +29,13 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "ISB Aishi";
     public override string Author { get; init; } = "SamC137";
     public override List<string>? Contributors { get; init; } = [""];
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.2");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.3");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.13");
     public override List<string>? Incompatibilities { get; init; } = [""];
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
     {
         { "com.wtt.commonlib", new SemanticVersioning.Range(">=2.0.23") },
-        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=1.1.0") },
+        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=1.1.4") },
     };
     public override string? Url { get; init; } = "";
     public override bool? IsBundleMod { get; init; } = true;
@@ -137,6 +137,7 @@ public class EditDatabaseValues(
         private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
         private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
         private readonly InsuranceConfig _insuranceConfig = configServer.GetConfig<InsuranceConfig>();
+        private readonly QuestConfig _questConfig = configServer.GetConfig<QuestConfig>();
 
         public async Task OnLoad()
         {
@@ -154,6 +155,8 @@ public class EditDatabaseValues(
             _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
 
             AishiLogger.AddTraderWithEmptyAssortToDb(traderBase);
+            AishiRepeatables.Initialize(pathToMod, databaseService, logger);
+            AddAishiToRepeatableQuests(traderBase);
 
             var (_, trader) = databaseService.GetTraders()
                 .FirstOrDefault(t => t.Key == traderBase.Id);
@@ -283,6 +286,69 @@ public class EditDatabaseValues(
             }
 
             wttCommon.CustomRigLayoutService.CreateRigLayouts(assembly);
+        }
+
+        private void AddAishiToRepeatableQuests(TraderBase traderBase)
+        {
+            string[] repeatableNames = ["Daily", "Weekly"];
+
+            foreach (var repeatableName in repeatableNames)
+            {
+                if (!AishiRepeatables.IsEnabled(repeatableName))
+                {
+                    if (AishiRepeatables.ShowRepeatableQuestLogs)
+                    {
+                        logger.LogInformation($"[ISB Aishi] {repeatableName} operational tasks are disabled in AishiRepeatables.json.");
+                    }
+                    continue;
+                }
+
+                var repeatable = _questConfig.RepeatableQuests.FirstOrDefault(config =>
+                    string.Equals(config.Name, repeatableName, StringComparison.OrdinalIgnoreCase));
+
+                if (repeatable is null)
+                {
+                    logger.LogWarning($"[ISB Aishi] Repeatable quest config '{repeatableName}' was not found.");
+                    continue;
+                }
+
+                var configuredQuestTypes = AishiRepeatables.GetQuestTypes(repeatableName);
+
+                var existingEntry = repeatable.TraderWhitelist.FirstOrDefault(entry => entry.TraderId == traderBase.Id);
+                if (existingEntry is not null)
+                {
+                    existingEntry.QuestTypes = configuredQuestTypes;
+                    if (AishiRepeatables.ShowRepeatableQuestLogs)
+                    {
+                        logger.LogInformation($"[ISB Aishi] Updated Aishi {repeatableName} operational task types: {string.Join(", ", configuredQuestTypes)}.");
+                    }
+                    continue;
+                }
+
+                var rewardTemplate = repeatable.TraderWhitelist.FirstOrDefault(entry =>
+                    string.Equals(entry.Name, "peacekeeper", StringComparison.OrdinalIgnoreCase));
+
+                if (rewardTemplate is null)
+                {
+                    logger.LogWarning($"[ISB Aishi] Peacekeeper reward template was not found for {repeatableName} operational tasks.");
+                    continue;
+                }
+
+                repeatable.TraderWhitelist.Add(rewardTemplate with
+                {
+                    TraderId = traderBase.Id,
+                    Name = "aishi",
+                    QuestTypes = configuredQuestTypes,
+                    RewardBaseWhitelist = rewardTemplate.RewardBaseWhitelist.ToArray(),
+                    RewardCanBeWeapon = false,
+                    WeaponRewardChancePercent = 0
+                });
+
+                if (AishiRepeatables.ShowRepeatableQuestLogs)
+                {
+                    logger.LogInformation($"[ISB Aishi] Added Aishi to {repeatableName} operational tasks with types: {string.Join(", ", configuredQuestTypes)}.");
+                }
+            }
         }
 
         Task IOnLoad.OnLoad()

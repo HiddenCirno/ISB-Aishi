@@ -1,0 +1,503 @@
+{
+  "enabled": true,
+  "forceAishiTempQuests": false,
+  "showRepeatableQuestLogs": false,
+  "guaranteedDailyQuests": {
+    "min": 1,
+    "max": 2
+  },
+  "daily": {
+    "enabled": true,
+    "questTypes": [
+      "Elimination",
+      "Completion",
+      "Exploration"
+    ],
+    "images": {
+      "Elimination": "/files/quest/icon/AishiLabs.png",
+      "Completion": "/files/quest/icon/AishiBanner.png",
+      "Exploration": "/files/quest/icon/AishiUntarQuestline.png"
+    },
+    "reroll": {
+      "changeCost": [
+        {
+          "templateId": "5696686a4bdc2da3298b456a",
+          "count": 100
+        }
+      ]
+    },
+    "elimination": {
+      "targets": [
+        {
+          "key": "Savage",
+          "relativeProbability": 35,
+          "data": {
+            "isBoss": false,
+            "isPmc": false
+          }
+        },
+        {
+          "key": "AnyPmc",
+          "relativeProbability": 65,
+          "data": {
+            "isBoss": false,
+            "isPmc": true
+          }
+        }
+      ],
+      "bodyPartChance": 0,
+      "bodyParts": [
+        {
+          "key": "Head",
+          "relativeProbability": 20,
+          "data": [
+            "Head"
+          ]
+        },
+        {
+          "key": "Chest",
+          "relativeProbability": 20,
+          "data": [
+            "Chest",
+            "Stomach"
+          ]
+        },
+        {
+          "key": "Arms",
+          "relativeProbability": 1,
+          "data": [
+            "LeftArm",
+            "RightArm"
+          ]
+        },
+        {
+          "key": "Legs",
+          "relativeProbability": 1,
+          "data": [
+            "LeftLeg",
+            "RightLeg"
+          ]
+        }
+      ],
+      "specificLocationChance": 0,
+      "locations": [
+        "any"
+      ],
+      "distLocationBlacklist": [],
+      "distProb": 0,
+      "maxDist": 100,
+      "minDist": 20,
+      "maxKills": 40,
+      "minKills": 15,
+      "maxBossKills": 3,
+      "minBossKills": 1,
+      "maxPmcKills": 30,
+      "minPmcKills": 15,
+      "weaponRequirementChance": 0,
+      "weaponCategoryRequirementChance": 0,
+      "weaponCategoryRequirements": [],
+      "weaponRequirements": [],
+      "conditionOverrides": {
+        "oneSessionOnly": false,
+        "resetOnSessionEnd": false,
+        "weaponCaliberChance": 0,
+        "weaponCalibers": [],
+        "daytimeChance": 0,
+        "daytime": {
+          "from": 0,
+          "to": 0
+        }
+      }
+    },
+    "completion": {
+      "requestedItemCount": {
+        "min": 1,
+        "max": 3
+      },
+      "uniqueItemCount": {
+        "min": 1,
+        "max": 1
+      },
+      "requestedBulletCount": {
+        "min": 15,
+        "max": 40
+      },
+      "useWhitelist": false,
+      "useBlacklist": false,
+      "requiredItemsAreFiR": true,
+      "requiredItemMinDurabilityMinMax": {
+        "min": 0,
+        "max": 100
+      },
+      "requiredItemTypeBlacklist": [],
+      "itemsWhitelist": [],
+      "itemsBlacklist": []
+    },
+    "exploration": {
+      "locations": [],
+      "minExtracts": 1,
+      "maxExtracts": 3,
+      "minExtractsWithSpecificExit": 1,
+      "maxExtractsWithSpecificExit": 2,
+      "specificExits": {
+        "chance": 0,
+        "passageRequirementWhitelist": []
+      }
+    },
+    "rewards": {
+      "xp": {
+        "min": 8000,
+        "max": 15000
+      },
+      "money": {
+        "currency": "USD",
+        "min": 550,
+        "max": 1990
+      },
+      "standing": {
+        "min": 0.01,
+        "max": 0.03
+      },
+      "itemRewards": {
+        "min": 1,
+        "max": 4,
+        "allowDuplicates": false,
+        "pool": [
+          {
+            "tpl": "6a7bbf80d68132981f99bd82",
+            "weight": 170,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "6a7cf0b5c2f90e0e4ece5684",
+            "weight": 100,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "69860f957139b00c69e69cb7",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "694b2e29274ab9b2a319b6ed",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "689b889473ebd6871805edd6",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "6984d3dba12142d30f5e03c8",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "69fa5313cc7338d9dec96f77",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "699b54a97d3c1c9f69f616b6",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "6a42662fcb506840dd053827",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "6a426637ddc63098d100ae67",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "6a30ec62eb1babffc84227d8",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "699aae8c9b6a4ab2b769c4a3",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "699aab526ac4f65528f1fd63",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "6931b6a2161edf5b558ee5bc",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "6529302b8c26af6326029fb7",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "692e3991aeebb57de9a2386b",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "692dc61870449aedfa85120f",
+            "weight": 5,
+            "minAmount": 60,
+            "maxAmount": 60
+          },
+          {
+            "tpl": "689b3fffa1295e322207a677",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "5ea18c84ecf1982c7712d9a2",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "69b8289f8ec3dce259c4036a",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "5751a89d24597722aa0e8db0",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "5af0548586f7743a532b7e99",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "692bbee2e2bf5108b9310186",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "5c0e531d86f7747fa23f4d42",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "5d1b33a686f7742523398398",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "64afdcb83efdfea28601d041",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          },
+          {
+            "tpl": "66b5f6985891c84aab75ca76",
+            "weight": 5,
+            "minAmount": 1,
+            "maxAmount": 1
+          }
+        ]
+      }
+    }
+  },
+  "weekly": {
+    "enabled": true,
+    "questTypes": [
+      "Elimination"
+    ],
+    "images": {
+      "Elimination": "/files/quest/icon/AishiLabs.png",
+      "Completion": "/files/quest/icon/AishiBanner.png",
+      "Exploration": "/files/quest/icon/AishiUntarQuestline.png"
+    },
+    "reroll": {
+      "changeCost": [
+        {
+          "templateId": "5696686a4bdc2da3298b456a",
+          "count": 100
+        }
+      ]
+    },
+    "elimination": {
+      "targets": [
+        {
+          "key": "Savage",
+          "relativeProbability": 40,
+          "data": {
+            "isBoss": true,
+            "isPmc": false
+          }
+        },
+        {
+          "key": "AnyPmc",
+          "relativeProbability": 60,
+          "data": {
+            "isBoss": false,
+            "isPmc": true
+          }
+        }
+      ],
+      "bodyPartChance": 0,
+      "bodyParts": [
+        {
+          "key": "Head",
+          "relativeProbability": 30,
+          "data": [
+            "Head"
+          ]
+        },
+        {
+          "key": "Chest",
+          "relativeProbability": 30,
+          "data": [
+            "Chest",
+            "Stomach"
+          ]
+        },
+        {
+          "key": "Arms",
+          "relativeProbability": 1,
+          "data": [
+            "LeftArm",
+            "RightArm"
+          ]
+        },
+        {
+          "key": "Legs",
+          "relativeProbability": 1,
+          "data": [
+            "LeftLeg",
+            "RightLeg"
+          ]
+        }
+      ],
+      "specificLocationChance": 0,
+      "locations": [
+        "any"
+      ],
+      "distLocationBlacklist": [],
+      "distProb": 0,
+      "maxDist": 150,
+      "minDist": 30,
+      "maxKills": 80,
+      "minKills": 40,
+      "maxBossKills": 8,
+      "minBossKills": 4,
+      "maxPmcKills": 95,
+      "minPmcKills": 50,
+      "weaponRequirementChance": 0,
+      "weaponCategoryRequirementChance": 0,
+      "weaponCategoryRequirements": [],
+      "weaponRequirements": [],
+      "conditionOverrides": {
+        "oneSessionOnly": false,
+        "resetOnSessionEnd": false,
+        "weaponCaliberChance": 0,
+        "weaponCalibers": [],
+        "daytimeChance": 0,
+        "daytime": {
+          "from": 0,
+          "to": 0
+        }
+      }
+    },
+    "completion": {
+      "requestedItemCount": {
+        "min": 2,
+        "max": 6
+      },
+      "uniqueItemCount": {
+        "min": 1,
+        "max": 2
+      },
+      "requestedBulletCount": {
+        "min": 15,
+        "max": 40
+      },
+      "useWhitelist": false,
+      "useBlacklist": false,
+      "requiredItemsAreFiR": true,
+      "requiredItemMinDurabilityMinMax": {
+        "min": 0,
+        "max": 100
+      },
+      "requiredItemTypeBlacklist": [],
+      "itemsWhitelist": [],
+      "itemsBlacklist": []
+    },
+    "exploration": {
+      "locations": [],
+      "minExtracts": 3,
+      "maxExtracts": 8,
+      "minExtractsWithSpecificExit": 2,
+      "maxExtractsWithSpecificExit": 5,
+      "specificExits": {
+        "chance": 0,
+        "passageRequirementWhitelist": []
+      }
+    },
+    "rewards": {
+      "xp": {
+        "min": 45000,
+        "max": 85000
+      },
+      "money": {
+        "currency": "USD",
+        "min": 3000,
+        "max": 5000
+      },
+      "standing": {
+        "min": 0.05,
+        "max": 0.1
+      },
+      "itemRewards": {
+        "min": 1,
+        "max": 2,
+        "allowDuplicates": false,
+        "pool": [
+          {
+            "tpl": "6a7bbf80d68132981f99bd82",
+            "weight": 60,
+            "minAmount": 2,
+            "maxAmount": 4
+          },
+          {
+            "tpl": "6a7cf0b5c2f90e0e4ece5684",
+            "weight": 40,
+            "minAmount": 2,
+            "maxAmount": 4
+          }
+        ]
+      }
+    }
+  }
+}

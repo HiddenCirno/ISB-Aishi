@@ -10,7 +10,7 @@
       "QuestItem": false,  
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
-      "InsuranceDisabled": true,
+      "InsuranceDisabled": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
       "addtoItemBlacklist": true,   

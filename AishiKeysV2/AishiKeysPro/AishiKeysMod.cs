@@ -19,7 +19,7 @@ namespace AishiKeysPro
     {
         public const string PluginGuid = "com.samc137.aishi";
         public const string PluginName = "AishiMasterKeyFunction";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.0.3";
         public const string FikaPluginGuid = "com.fika.core";
 
         private const string FikaBridgeAssemblyFileName = "AishiKeysV2.Fika.dll";
@@ -54,7 +54,7 @@ namespace AishiKeysPro
                 TryInitializeOptionalFikaBridge();
 
                 Logger.LogInfo(
-                    "Aishi Keys 1.0.2 initialized. Local mode is ready; " +
+                    "Aishi Keys 1.0.3 initialized. Local mode is ready; " +
                     "the optional Fika addon can attach independently.");
             }
             catch (Exception ex)

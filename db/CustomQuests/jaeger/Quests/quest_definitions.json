@@ -112,27 +112,43 @@
           "id": "6a73a85c8f0f50d16e10e26f",
           "index": 0,
           "parentId": "",
-          "value": 10,
-          "visibilityConditions": []
-        },
-        {
-          "availableAfter": 0,
-          "conditionType": "Quest",
-          "dispersion": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "6a73a86a4a646d1c6daf1f60",
-          "index": 1,
-          "parentId": "",
-          "status": [
-            4,
-            9
-          ],
-          "target": "66b38e144f2ab7cc530c3fe7",
+          "value": 1,
           "visibilityConditions": []
         }
       ],
-      "Fail": []
+      "Fail": [
+      {
+      "completeInSeconds": 0,
+      "conditionType": "CounterCreator",
+      "counter": {
+      "conditions": [
+      {
+        "conditionType": "ExitStatus",
+        "dynamicLocale": false,
+        "id": "6a7cc5886cd27f0bbcbad272",
+        "status": [
+          "Killed",
+          "MissingInAction",
+          "Left"
+        ]
+      }
+          ],
+          "id": "6a7cc58a980b306c89dd94bd"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a7cc58c6ce557dd15ec6142",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": true,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "declinePlayerMessage": "690bcb580b8f9c461c3eae53 declinePlayerMessage",
     "description": "690bcb580b8f9c461c3eae53 description",
@@ -146,7 +162,7 @@
     "note": "690bcb580b8f9c461c3eae53 note",
     "progressSource": "eft",
     "rankingModes": [],
-    "restartable": false,
+    "restartable": true,
     "rewards": {
       "Fail": [],
       "Started": [],
@@ -654,6 +670,7 @@
                 "5bb2475ed4351e00853264e3",
                 "5447a9cd4bdc2dbd208b4567",
                 "618428466ef05c2ce828f218",
+                "6184055050224f204c1da540",
                 "68a639748e1fe612970728e9",
                 "68a6399922b1e0bd360afe56",
                 "6895bb82c4519957df062f82"
