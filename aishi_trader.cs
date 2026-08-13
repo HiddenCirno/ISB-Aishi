@@ -218,7 +218,6 @@ public class EditDatabaseValues(
             logger.LogInformation("\x1b[38;2;200;80;220m[ISB Aishi Loaded] \u201cDo you think the Black Division will negotiate? Join us, and let\u2019s show them our bargaining chip.\u201d\x1b[0m");
 
             await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
-            await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
             await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
             await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
             await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
@@ -229,6 +228,8 @@ public class EditDatabaseValues(
             await wttCommon.CustomVoiceService.CreateCustomVoices(assembly);
             await wttCommon.CustomHeadService.CreateCustomHeads(assembly);
             await wttCommon.CustomClothingService.CreateCustomClothing(assembly);
+            //fix language override issues
+            await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
 
             if (modList.Any(mod => mod.ModMetadata.ModGuid == "com.Luna.LunnayalunaLotus"))
             {
