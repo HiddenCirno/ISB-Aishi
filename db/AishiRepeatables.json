@@ -111,20 +111,20 @@
     },
     "completion": {
       "requestedItemCount": {
-        "min": 1,
-        "max": 3
+        "min": 8,
+        "max": 12
       },
       "uniqueItemCount": {
-        "min": 1,
-        "max": 1
+        "min": 5,
+        "max": 14
       },
       "requestedBulletCount": {
-        "min": 15,
-        "max": 40
+        "min": 60,
+        "max": 100
       },
       "useWhitelist": false,
       "useBlacklist": false,
-      "requiredItemsAreFiR": true,
+      "requiredItemsAreFiR": false,
       "requiredItemMinDurabilityMinMax": {
         "min": 0,
         "max": 100
@@ -135,10 +135,10 @@
     },
     "exploration": {
       "locations": [],
-      "minExtracts": 1,
-      "maxExtracts": 3,
-      "minExtractsWithSpecificExit": 1,
-      "maxExtractsWithSpecificExit": 2,
+      "minExtracts": 5,
+      "maxExtracts": 8,
+      "minExtractsWithSpecificExit": 4,
+      "maxExtractsWithSpecificExit": 8,
       "specificExits": {
         "chance": 0,
         "passageRequirementWhitelist": []
